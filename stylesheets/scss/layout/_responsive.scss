@@ -1,0 +1,55 @@
+@media screen and (max-width: $L){
+	body{
+		font-size: calc(6px + 0.5vw);
+	}
+}
+
+@media screen and (max-width: $M){
+
+	body{
+		font-size: calc(8px + 0.5vw);
+	}
+
+	header{
+		width: 100vw;
+		h1{
+			font-size: calc(22px + 0.5vw);
+		}
+		.menu-control{
+			width: calc(#{$vertical-size}/2 + #{$space-amount} + 3em)
+		}
+	}
+
+	.last-expanders{
+		display: initial;
+	}
+	.expander{
+		.pagers{
+			top:0;
+			@include transform(none);
+			width: calc(100vw);
+			.pager{
+				&.previous{
+					@include transform(translateX(calc(-100% + 19em)));
+				}
+				&.next{
+					@include transform(translateX(calc(100% - 23em)));
+				}
+			}
+		}
+		&.left, &.right{
+			width: 100%;
+			float: none;
+			padding: 0 $space-amount;
+		}
+	}
+
+	.grid{
+		padding-right: $space-amount;
+		padding-left: $space-amount;
+	}
+
+	.content{
+		width: 90%;
+	}
+}

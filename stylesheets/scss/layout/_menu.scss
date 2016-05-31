@@ -1,0 +1,32 @@
+section.menu{
+	@include position(absolute, $vertical-size, -100vw);
+	@include square(100vw, calc(100vh - #{$vertical-size}));
+	background: rgba(0, 104, 185, 0.9);
+	z-index: 2;
+	@include transition(all 0.5s);
+	.opened &{
+		left:0;
+	}
+	.content-block{
+		height: 100%;
+	}
+	span{
+		color:$brand;
+		font-weight: 900;
+	}
+	ul{
+		list-style: none;
+		padding: 0;
+	}
+	h3{
+		color: $white;
+		font-size: 3em;
+		line-height: 1.4;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	.menu-element{
+		cursor: pointer;
+	}
+}

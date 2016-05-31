@@ -1,0 +1,42 @@
+header{
+  width: calc(100vw - 15px);
+  @include position(fixed, 0, 0);
+  z-index: 1;
+}
+
+.header {
+  @include square(100%, #{$vertical-size});
+  @include justify(space-between);
+  padding: 0 $space-amount;
+  position: relative;
+  overflow: hidden;
+  background-color: $white;
+  .mark {
+    @include square(calc(#{$logo-mark}*8), calc(#{$logo-mark}*6));
+    @include logo($logo-mark, $brand-contrast);
+    @include transform(rotateY(360deg) rotateX(360deg) skew(-30deg) translateY(-50%));
+    cursor: pointer;
+  }
+  a{
+    height: 2em;
+  }
+  h1{
+    text-tranform: uppercase;
+    color: $brand-text;
+    max-height: 1em;
+    margin-top: -0.2em;
+    cursor: pointer;
+  }
+  > *{
+    @include center();
+  }
+  .opened &{
+    background-color: $brand-alt;
+    .mark{
+      @include filter(brightness(8) grayscale(1));
+    }
+    h1{
+      color: $white;
+    }
+  }
+}

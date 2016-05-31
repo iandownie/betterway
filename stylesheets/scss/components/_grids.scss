@@ -1,0 +1,35 @@
+.grid{
+	padding: calc(#{$vertical-size} - #{$space-amount}/2) calc((100em - #{$space-amount} - #{$content-width-large})/2);
+	background: #f5f5f6;
+	@include justify(center);
+	flex-wrap: wrap;
+	.grid-element{
+		@include square(calc(100%/3 - #{$space-amount}), calc((#{$content-width-large}/3 - (#{$space-amount}*2)/3) - 1em));
+		cursor: pointer;
+		overflow: hidden;
+		background: $white;
+		margin: calc(#{$space-amount}/2) calc(#{$space-amount}/2);
+		position: relative;
+		img{
+			height: 50%;
+			@include position(absolute, 50%, 50%);
+			@include transform(translate(-50%, -50%));
+		}
+		.card{
+			@include square(100%);
+			color: $brand;
+			@include position(relative, calc(21em * 0.7));
+			@include justify(space-between, column);
+			text-align: center;
+			padding: calc(#{$space-amount});
+			@include transition(all 0.5s);
+		}
+		&:hover .card{
+			background: rgba(0, 96, 154, 0.75);
+			top: 0;
+			h3,h4{
+				color: $white;
+			}
+		}
+	}
+}

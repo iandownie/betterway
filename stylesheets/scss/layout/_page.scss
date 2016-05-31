@@ -1,0 +1,61 @@
+$margin: 1em;
+
+body{
+	font-size: calc((100vw - 15px)/100);
+	padding-top: $vertical-size;
+}
+
+section{
+	width:100%;
+	margin: 0 auto;
+	* {
+		@include transition(all $medium);
+	}
+}
+.container > div{
+	@include transition (max-height 0.5s);
+}
+
+.content-block{
+	width: $content-width;
+	max-width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.justified{
+	@include justify(center, row);
+	&.space-between{
+		-webkit-box-pack:space-between;
+		-webkit-justify-content:space-between;
+		-ms-flex-pack:space-between;
+		justify-content:space-between;
+	}
+	&.column{
+		-webkit-flex-direction: column;
+		-webkit-box-direction: vartical;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	&.space-around{
+		-webkit-box-pack:space-around;
+		-webkit-justify-content:space-around;
+		-ms-flex-pack:space-around;
+		justify-content:space-around;
+	}
+}
+
+.center-me{
+	@include center();
+}
+.center-me-vertical{
+	@include center(vertical);
+}
+
+.margin-top{
+	margin-top: $margin;
+}
+
+.ui-draggable{
+	cursor: move;
+}

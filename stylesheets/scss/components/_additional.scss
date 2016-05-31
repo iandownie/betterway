@@ -1,0 +1,38 @@
+.additional{
+	padding: $vertical-size 0;
+	background-color: $brand;
+	h2{
+		color: $white;
+		text-align: center;
+		margin-bottom: $vertical-size;
+	}
+	h4{
+		@include justify(center, column);
+		color: $white;
+		font-weight: 900;
+		margin: 0 2em;
+	}
+	ul{
+		margin: 0;
+		@include justify(center);
+		flex-wrap: wrap;
+		li{
+			list-style: none;
+			@include justify(center);
+			flex: 1 0 51%;
+			margin: calc(#{$vertical-size}/4);
+		}
+	}
+	.button{
+		margin: 0 2em;
+		left: initial;
+		@include transform(translateX(0));
+		&:before{
+			border: 2px solid $white;
+
+		}
+		&:hover:before{
+			border:solid 2px transparent;
+		}
+	}
+}

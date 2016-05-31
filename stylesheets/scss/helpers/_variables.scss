@@ -1,0 +1,60 @@
+//size variables
+$content-width: 44em;
+$content-width-large: 67em;
+$space-amount: 2em; // Space Between grid elements
+$myems: 1vw; //Root element font size, establishes em size.
+$vertical-size: 6em; // Content Section Vertical Padding and Header Height
+$bar-height: 0.5em;
+$alt-hero-height: 18em;
+
+// breakpoints
+$XS:    320px;
+$S:     400px;
+$SM:    615px;
+$M:     775px;
+$L:     1200px;
+
+
+// brand colors
+$brand: #293956; //Dark blueish
+$brand-contrast: #ed1c24; //bright redish
+$brand-alt: #0777bc; //light bluish
+$brand-text: #bcbec0; //light grayish
+
+
+//logo sizes (must be in WHOLE pixels)
+$logo:12px;
+$logo-mark:9px;
+
+//base colors
+$white: #ffffff;
+$black: #000000;
+
+
+// text colors
+$color-text: #000;
+$color-link: #000;
+$color-link--hover: darken($color-link, 10%);
+
+
+// button colors //lighten($color-button-primary, 5%)
+$color-button-primary: $brand;
+$color-button-primary-hover: $brand-alt;
+$color-button-primary-text: $white;
+
+ 
+// third party brand colors
+$color-facebook: #03539e;
+$color-twitter: #35ccff;
+$color-linkedin: #217bc1;
+
+
+// fonts
+$sans-serif: 'Montserrat', sans-serif;
+$serif: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+$didact: 'Didact Gothic', sans-serif;
+
+//transitions
+$short: 0.25s;
+$medium: 0.5s;
+$long: 1s;

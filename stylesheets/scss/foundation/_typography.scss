@@ -1,0 +1,67 @@
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: $sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: .15em;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  letter-spacing: 1px;
+}
+
+.h2 {
+  h2{
+    position: relative;
+    font-size: 2em;
+    margin: -0.2em auto -0.24em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+  }
+  position: relative;
+  padding: calc(#{$space-amount}) 0;
+  &:before{
+    @include square(calc(#{$logo}*8), calc(#{$logo*6}));
+    @include center(both);
+    content: ' ';
+    @include logo(#{$logo});
+    position: absolute;
+    @include transform(skew(-30deg) translate(calc(-50% - 30%), -50%));
+    @include prefixProperty(filter, grayscale(100%) brightness(0.2));
+    @include opacity(0.2);
+  }
+  margin: 0 0 calc(#{$space-amount}/4);
+}
+
+h3 {
+  font-size: 1em;
+}
+
+p {
+  font-family: $serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  color: $white;
+  letter-spacing: 1;
+  line-height: 1.8em;
+}
+
+a {
+  text-decoration: none;
+  color: $brand-alt;
+}
+
+
+small {
+  font-size: .6em;
+  vertical-align: top;
+  line-height: 56px;
+}

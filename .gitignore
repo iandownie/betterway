@@ -1,0 +1,26 @@
+# Ignore config & system files
+.htaccess
+.DS_Store
+wp-config.php
+
+# Ignore downloaded vendor packages
+node_modules
+
+# Ignore cache files
+.sass-cache
+wp-content/cache
+wp-content/w3tc-config
+
+# Ignore file uploads
+wp-content/uploads
+
+# this is a static site
+Gruntfile.js
+bower.json
+package.json
+README.md
+node_modules/
+mcapi2-node-examples-master/
+html_imports/
+
+

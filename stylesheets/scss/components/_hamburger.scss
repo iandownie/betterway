@@ -1,0 +1,81 @@
+.menu-control{
+  @include center();
+  @include square(calc(#{$vertical-size}/2 + #{$space-amount} + 4em), calc(#{$bar-height}*5));
+  @include justify(space-between);
+  *{
+    @include transition(all #{$medium});
+  }
+  .opened &{
+    h3{
+      color: $white;
+      @include transform(rotate(-90deg));
+      @include opacity(0);
+      &.close{
+        @include opacity(1);
+        @include transform( rotate(0));
+      }
+    }
+    .hamburger{
+      .bar, &:after, &:before{
+        background-color: $white;
+      }
+      .bar{
+        @include transform(rotate(45deg));
+      }
+      &:before, &:after{
+        top: calc(50% - (#{$bar-height}/2));
+        @include transform(rotate(-45deg));
+      }
+      &:hover{
+        &:before, &:after, .bar{
+          @include transform(rotate(0));
+        }
+      }
+    }
+
+  }
+  .labels{
+    @include square(4em, 100%);
+  }
+  h3{
+    margin-top: -0.2em;
+    height: 1em;
+    text-transform: uppercase;
+    color: $brand-alt;
+    @include prefixProperty(transform-origin, calc(100% + #{$space-amount} + #{$vertical-size}/4) 50%);
+    @include center();
+    position: absolute;
+    &.close{
+      @include opacity(0);
+      @include transform(rotate(90deg));
+    }
+  }
+  .hamburger{
+    @include square(calc(#{$vertical-size}/2), calc((#{$vertical-size}*5/6)/2));
+    position: relative;
+    &:before, &:after, .bar{
+      @include transition(all #{$medium});
+      position: absolute;
+      background-color: $brand-alt;
+      @include square(calc(#{$vertical-size}/2), #{$bar-height});
+      content: ' ';
+    }
+    .bar{
+      top: calc(50% - (#{$bar-height}/2));
+    }
+    &:before{
+      top: calc(50% - (#{$bar-height}/2) - #{$bar-height}*2);
+    }
+    &:after{
+      top: calc(50% - (#{$bar-height}/2) + #{$bar-height}*2);
+    }
+    &:hover{
+      .bar{
+        @include transform(rotate(90deg));
+      }
+      &:before, &:after{
+        top: calc(50% - (#{$bar-height}/2));
+      }
+    }
+  }
+}

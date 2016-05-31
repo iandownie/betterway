@@ -1,0 +1,40 @@
+.sign_up{
+	background-color: $brand;
+	color:$white;
+	padding: $vertical-size;
+	form{
+		margin: 0 auto;
+		margin-top: calc(#{$vertical-size}/2);
+		@include square(34em, calc(#{$space-amount}*1.5));
+		position: relative;
+		max-width: 90%;
+		&:before{
+			content: ' ';
+			@include transition(all 0.5s);
+			width: calc(100% + 2em);
+			height: 3em;
+			@include position(absolute, 0, 50%);
+			@include transform(skewX(-25deg) translate(-50%));
+			z-index: 0;
+			background: $white;
+		}
+		input{
+			z-index: 1;
+			border:none;
+			@include square(100%);
+			position: relative;
+			&:focus{
+				outline: none;
+			}
+		}
+		.button{
+			@include position(absolute, 0, initial, null, -1px);
+			z-index: 1;
+			min-width: 10em;
+			@include transform(none);
+		}
+	}
+	p{
+		text-align: center;
+	}
+}
