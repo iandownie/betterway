@@ -1,5 +1,5 @@
 # Ignore config & system files
-.htaccess
+
 .DS_Store
 wp-config.php
 
@@ -21,6 +21,6 @@ package.json
 README.md
 node_modules/
 mcapi2-node-examples-master/
-html_imports/
+
 
 
