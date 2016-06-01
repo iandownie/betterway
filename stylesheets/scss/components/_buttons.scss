@@ -1,7 +1,7 @@
 .button {
   @include transition(all 0.5s);
   font-family: 'Didact Gothic', sans-serif;
-  min-width: 12em;
+  min-width: 16em;
   color:$white;
   font-weight: 900;
   letter-spacing: 0;
@@ -9,7 +9,7 @@
   @include center(horizontal);
   padding: 1em 0px;
   border:none;
-  line-height: 1em;
+  line-height: 1.2em;
   position: relative;
   transform: translateX(-50%);
   display: inline-block;

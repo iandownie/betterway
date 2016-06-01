@@ -8,6 +8,7 @@ header{
   @include square(100%, #{$vertical-size});
   @include justify(space-between);
   padding: 0 $space-amount;
+  border-bottom: 1px solid #BCBEC0;
   position: relative;
   overflow: hidden;
   background-color: $white;

@@ -1,7 +1,7 @@
 .sign_up{
 	background-color: $brand;
 	color:$white;
-	padding: $vertical-size;
+	padding: 0;
 	form{
 		margin: 0 auto;
 		margin-top: calc(#{$vertical-size}/2);
@@ -36,5 +36,31 @@
 	}
 	p{
 		text-align: center;
+	}
+	.content-block{
+		margin: $vertical-size auto;
+		&.deactivated{
+			overflow: hidden;
+			max-height: 0 !important;
+			margin-bottom: 0;
+		}
+	}
+	.confirmation{
+		overflow: hidden;
+		height: 30em;
+		max-height: 0;
+		border-color: transparent;
+		&.active{
+			max-height: 20em;
+		}
+	}
+}
+
+body.confirmation-page{
+	overflow: hidden;
+	padding: 0;
+	background-color: $brand;
+	.sign_up .content-block{
+		margin: 0 auto;
 	}
 }

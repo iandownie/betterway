@@ -8,7 +8,7 @@
 				"link": "",
 				"image": "image.png",
 				"header": "Video Header Text",
-				"video": "iMDvB6QFcPs"
+				"video": "8tPnX7OPo0Q"
 			},
 			{
 				"type": "expander",
@@ -71,7 +71,7 @@
 				"fb": "Facebook Share Text",
 				"fb_image": "Custom Facebook Image, if not video image",
 				"twt": "Twitter Share Text",
-				"video": "iMDvB6QFcPs"
+				"video": "8tPnX7OPo0Q"
 			},
 			{
 				"type":"expander",
@@ -83,7 +83,7 @@
 			{
 				"type":"expander",
 				"header": "Content Header, if Any",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[
@@ -147,7 +147,7 @@
 			{
 				"type":"expander",
 				"header": "Content Header, if Any",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[]
@@ -193,7 +193,7 @@
 				"header": "Content Header, if Any",
 				"format": "ordered list",
 				"class": "right",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[]
@@ -229,15 +229,15 @@
 				"items":[
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					},
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					},
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					}
 				]
 			}
@@ -255,7 +255,7 @@
 				"fb": "Facebook Share Text",
 				"fb_image": "Custom Facebook Image, if not video image",
 				"twt": "Twitter Share Text",
-				"video": "iMDvB6QFcPs"
+				"video": "8tPnX7OPo0Q"
 			},
 			{
 				"type":"expander",
@@ -267,7 +267,7 @@
 			{
 				"type":"expander",
 				"header": "Content Header, if Any",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[
@@ -331,7 +331,7 @@
 			{
 				"type":"expander",
 				"header": "Content Header, if Any",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[]
@@ -377,7 +377,7 @@
 				"header": "Content Header, if Any",
 				"format": "ordered list",
 				"class": "right",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[]
@@ -413,15 +413,15 @@
 				"items":[
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					},
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					},
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					}
 				]
 			}
@@ -439,7 +439,7 @@
 				"fb": "Facebook Share Text",
 				"fb_image": "Custom Facebook Image, if not video image",
 				"twt": "Twitter Share Text",
-				"video": "iMDvB6QFcPs"
+				"video": "8tPnX7OPo0Q"
 			},
 			{
 				"type":"expander",
@@ -451,7 +451,7 @@
 			{
 				"type":"expander",
 				"header": "Content Header, if Any",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[
@@ -515,7 +515,7 @@
 			{
 				"type":"expander",
 				"header": "Content Header, if Any",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[]
@@ -561,7 +561,7 @@
 				"header": "Content Header, if Any",
 				"format": "ordered list",
 				"class": "right",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[]
@@ -597,15 +597,15 @@
 				"items":[
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					},
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					},
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					}
 				]
 			}
@@ -623,7 +623,7 @@
 				"fb": "Facebook Share Text",
 				"fb_image": "Custom Facebook Image, if not video image",
 				"twt": "Twitter Share Text",
-				"video": "iMDvB6QFcPs"
+				"video": "8tPnX7OPo0Q"
 			},
 			{
 				"type":"expander",
@@ -635,7 +635,7 @@
 			{
 				"type":"expander",
 				"header": "Content Header, if Any",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[
@@ -699,7 +699,7 @@
 			{
 				"type":"expander",
 				"header": "Content Header, if Any",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[]
@@ -745,7 +745,7 @@
 				"header": "Content Header, if Any",
 				"format": "ordered list",
 				"class": "right",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[]
@@ -781,15 +781,15 @@
 				"items":[
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					},
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					},
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					}
 				]
 			}
@@ -807,7 +807,7 @@
 				"fb": "Facebook Share Text",
 				"fb_image": "Custom Facebook Image, if not video image",
 				"twt": "Twitter Share Text",
-				"video": "iMDvB6QFcPs"
+				"video": "8tPnX7OPo0Q"
 			},
 			{
 				"type":"expander",
@@ -819,7 +819,7 @@
 			{
 				"type":"expander",
 				"header": "Content Header, if Any",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[
@@ -883,7 +883,7 @@
 			{
 				"type":"expander",
 				"header": "Content Header, if Any",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[]
@@ -929,7 +929,7 @@
 				"header": "Content Header, if Any",
 				"format": "ordered list",
 				"class": "right",
-				"text": [
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[]
@@ -965,15 +965,15 @@
 				"items":[
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					},
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					},
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					}
 				]
 			}
@@ -991,19 +991,19 @@
 				"fb": "Facebook Share Text",
 				"fb_image": "Custom Facebook Image, if not video image",
 				"twt": "Twitter Share Text",
-				"video": "iMDvB6QFcPs"
+				"video": "8tPnX7OPo0Q"
 			},
 			{
 				"type":"expander",
-				"header": "Content Header, if Any",
+				"header": "Content Header, if Any1",
 				"text": "Content Text",
 				"format": "paragraph",
 				"background": "background color"
 			},
 			{
 				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": [
+				"header": "Content Header, if Any2",
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[
@@ -1059,15 +1059,15 @@
 			},
 			{
 				"type":"expander",
-				"header": "Content Header, if Any",
+				"header": "Content Header, if Any3",
 				"text": "Content Text",
 				"format": "paragraph",
 				"background": "background color"
 			},
 			{
 				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": [
+				"header": "Content Header, if Any4",
+				"items": [
 					{
 						"item":"Item Text",
 						"sub_items":[]
@@ -1102,28 +1102,28 @@
 			},
 			{
 				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
+				"header": "Content Header, if Any5",
+				"text": "Content Text1",
 				"format": "paragraph",
 				"class": "left",
 				"background": "background color"
 			},
 			{
 				"type":"expander",
-				"header": "Content Header, if Any",
+				"header": "Content Header, if Any6",
 				"format": "ordered list",
 				"class": "right",
-				"text": [
+				"items": [
 					{
-						"item":"Item Text",
+						"item":"Item Text2",
 						"sub_items":[]
 					},
 					{
-						"item":"Item Text",
+						"item":"Item Text2",
 						"sub_items":[]
 					},
 					{
-						"item":"Item Text",
+						"item":"Item Text2",
 						"sub_items":[]
 					},
 					{
@@ -1149,17 +1149,18 @@
 				"items":[
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					},
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					},
 					{
 						"text": "additional Info Text",
-						"link": "/"
+						"link": "/_assets/pdf/"
 					}
-				]
+				],
+				"extrainfo": "don't erase"
 			}
 		]
 	}

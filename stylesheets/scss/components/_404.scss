@@ -1,0 +1,24 @@
+.page-404{
+	.background{
+		@include square(100%, calc(100vh - 9em - #{$vertical-size} - 1em));
+		@include background('../../_assets/images/404.jpg', no-repeat, cover,center);
+		.content-block{
+			@include center(vertical);
+			@include justify(center);
+			h1{
+				font-size: 25em;
+				color: white;
+				margin-top: -0.2em;
+			}
+			.error{
+				margin-left: 2em;
+				@include justify(center, column);
+				span{
+					color: $brand;
+					font-size: 1.2em;
+					margin-bottom: 1em;
+				}
+			}
+		}
+	}
+}

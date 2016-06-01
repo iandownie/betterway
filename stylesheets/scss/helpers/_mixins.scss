@@ -224,10 +224,10 @@
 /*  $space-amount should only be in WHOLE pixels  */
 @mixin logo($size: $space-amount, $color: #233047){
   transform: skew(-30deg);
-  background-image: -moz-linear-gradient(74deg, $color 25%, transparent 25%), -moz-linear-gradient(106deg, $color 25%, transparent 25%), -moz-linear-gradient(-74deg, $color 25%, transparent 25%), -moz-linear-gradient(-106deg, $color 25%, transparent 25%);
-  background-image: linear-gradient(-14deg, $color 25%, transparent 25%), linear-gradient(14deg, $color 25%, transparent 25%), linear-gradient(194deg, $color 25%, transparent 25%), linear-gradient(-194deg, $color 25%, transparent 25%);
+  background-image: -moz-linear-gradient(74deg, $color 25%, transparent 25%), -moz-linear-gradient(106deg, $color 25%, transparent 25%), -moz-linear-gradient(-74deg, $color 25%, transparent 25%), -moz-linear-gradient(-106deg, $color 25%, transparent 25%), -moz-linear-gradient(-194deg, $color 25%, transparent 25%), -moz-linear-gradient(14deg, $color 25%, transparent 25%);
+  background-image: linear-gradient(-14deg, $color 25%, transparent 25%), linear-gradient(14deg, $color 25%, transparent 25%), linear-gradient(194deg, $color 25%, transparent 25%), linear-gradient(-194deg, $color 25%, transparent 25%),linear-gradient(-194deg, $color 25%, transparent 25%), linear-gradient(14deg, $color 25%, transparent 25%);
   -moz-background-size: calc(#{$size}*8) calc(#{$size}*2);
   background-size: calc(#{$size}*8) calc(#{$size}*2);
   -webkit-background-size: calc(#{$size}*8) calc(#{$size}*2);
-  background-position: calc(#{$size}*-4) -#{$size}, calc(#{$size}*4) 0px, 0px #{$size}, 0px 0px;
+  background-position: calc(#{$size}*-4) -#{$size}, calc(#{$size}*4) 0px, 0px #{$size}, 0px 0px, 1px 0px, calc(#{$size}*4 + 1px) 0px;
 }

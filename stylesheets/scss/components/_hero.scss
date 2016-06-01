@@ -142,3 +142,18 @@ $iframe-width:90vw;
 	}
 }
 
+.custombox-modal-open{
+	font-size: 1vw;
+	&:before, &:after{
+		content:' ';
+		@include square(3em, 0.5em);
+		@include position(absolute, 2.6em, null, null, 2.7em);
+		background:$brand-contrast;
+		@include transform(rotate(45deg));
+		cursor: pointer;
+	}
+	&:after{
+		@include transform(rotate(-45deg));
+	}
+}
+
