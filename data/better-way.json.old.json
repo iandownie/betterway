@@ -1,0 +1,1172 @@
+[
+	{
+		"name": "Home Page",
+		"slug": "home_page",
+		"sections": [
+			{
+				"type": "hero_video",
+				"link": "",
+				"image": "image.png",
+				"header": "Video Header Text",
+				"video": "8tPnX7OPo0Q"
+			},
+			{
+				"type": "expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text ",
+				"format": "paragraph"
+			},
+			{
+				"type": "grid",
+				"items": [
+					{
+						"header": "Icon Block Header test",
+						"image": "Constitution.png",
+						"text": "Icon Block Text"
+					},
+					{
+						"header": "Icon Block Header",
+						"image": "Health.png",
+						"text": "Icon Block Text"
+					},
+					{
+						"header": "Icon Block Header",
+						"image": "Innovation.png",
+						"text": "Icon Block Text"
+					},
+					{
+						"header": "Icon Block Header",
+						"image": "NationalSecurity.png",
+						"text": "Icon Block Text"
+					},
+					{
+						"header": "Icon Block Header",
+						"image": "Poverty.png",
+						"text": "Icon Block Text"
+					},
+					{
+						"header": "Icon Block Header",
+						"image": "TaxReform.png",
+						"text": "Icon Block Text"
+					}
+				]
+			},
+			{
+				"type": "sign_up",
+				"header": "Signup Section Header",
+				"text": "Signup Section Text",
+				"image": "image.png"
+			}
+		]
+	},
+	{
+		"name": "Page Name1",
+		"slug": "page_slug1",
+		"sections": [
+			{
+				"type":"hero_video",
+				"link": "/",
+				"image": "Constitution.png",
+				"header": "Video Header Text",
+				"fb": "Facebook Share Text",
+				"fb_image": "Custom Facebook Image, if not video image",
+				"twt": "Twitter Share Text",
+				"video": "8tPnX7OPo0Q"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"background": "background color"
+			},
+			{
+				"type": "central",
+				"text": "Text for the central section",
+				"image": "Constitution.png"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					}
+				],
+				"format": "ordered list",
+				"class": ""
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					}
+				],
+				"format": "ordered list",
+				"class": ""
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"class": "left",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"format": "ordered list",
+				"class": "right",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					}
+				]
+			},
+			{ 
+				"type":"additional",
+				"items":[
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					},
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					},
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Page Name2",
+		"slug": "page_slug2",
+		"sections": [
+			{
+				"type":"hero_video",
+				"link": "/",
+				"image": "Health.png",
+				"header": "Video Header Text",
+				"fb": "Facebook Share Text",
+				"fb_image": "Custom Facebook Image, if not video image",
+				"twt": "Twitter Share Text",
+				"video": "8tPnX7OPo0Q"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					}
+				],
+				"format": "ordered list",
+				"class": ""
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					}
+				],
+				"format": "ordered list",
+				"class": ""
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"class": "left",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"format": "ordered list",
+				"class": "right",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					}
+				]
+			},
+			{ 
+				"type":"additional",
+				"items":[
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					},
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					},
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Page Name3",
+		"slug": "page_slug3",
+		"sections": [
+			{
+				"type":"hero_video",
+				"link": "/",
+				"image": "Innovation.png",
+				"header": "Video Header Text",
+				"fb": "Facebook Share Text",
+				"fb_image": "Custom Facebook Image, if not video image",
+				"twt": "Twitter Share Text",
+				"video": "8tPnX7OPo0Q"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					}
+				],
+				"format": "ordered list",
+				"class": ""
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					}
+				],
+				"format": "ordered list",
+				"class": ""
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"class": "left",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"format": "ordered list",
+				"class": "right",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					}
+				]
+			},
+			{ 
+				"type":"additional",
+				"items":[
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					},
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					},
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Page Name4",
+		"slug": "page_slug4",
+		"sections": [
+			{
+				"type":"hero_video",
+				"link": "/",
+				"image": "NationalSecurity.png",
+				"header": "Video Header Text",
+				"fb": "Facebook Share Text",
+				"fb_image": "Custom Facebook Image, if not video image",
+				"twt": "Twitter Share Text",
+				"video": "8tPnX7OPo0Q"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					}
+				],
+				"format": "ordered list",
+				"class": ""
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					}
+				],
+				"format": "ordered list",
+				"class": ""
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"class": "left",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"format": "ordered list",
+				"class": "right",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					}
+				]
+			},
+			{ 
+				"type":"additional",
+				"items":[
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					},
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					},
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Page Name5",
+		"slug": "page_slug5",
+		"sections": [
+			{
+				"type":"hero_video",
+				"link": "/",
+				"image": "Poverty.png",
+				"header": "Video Header Text",
+				"fb": "Facebook Share Text",
+				"fb_image": "Custom Facebook Image, if not video image",
+				"twt": "Twitter Share Text",
+				"video": "8tPnX7OPo0Q"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					}
+				],
+				"format": "ordered list",
+				"class": ""
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					}
+				],
+				"format": "ordered list",
+				"class": ""
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"text": "Content Text",
+				"format": "paragraph",
+				"class": "left",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any",
+				"format": "ordered list",
+				"class": "right",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					}
+				]
+			},
+			{ 
+				"type":"additional",
+				"items":[
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					},
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					},
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Page Name6",
+		"slug": "page_slug6",
+		"sections": [
+			{
+				"type":"hero_video",
+				"link": "/",
+				"image": "TaxReform.png",
+				"header": "Video Header Text",
+				"fb": "Facebook Share Text",
+				"fb_image": "Custom Facebook Image, if not video image",
+				"twt": "Twitter Share Text",
+				"video": "8tPnX7OPo0Q"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any1",
+				"text": "Content Text",
+				"format": "paragraph",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any2",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[
+							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
+							"Ensure similar tax bills for taxpayers with similar incomes."
+						]
+					}
+				],
+				"format": "ordered list",
+				"class": ""
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any3",
+				"text": "Content Text",
+				"format": "paragraph",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any4",
+				"items": [
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					}
+				],
+				"format": "ordered list",
+				"class": ""
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any5",
+				"text": "Content Text1",
+				"format": "paragraph",
+				"class": "left",
+				"background": "background color"
+			},
+			{
+				"type":"expander",
+				"header": "Content Header, if Any6",
+				"format": "ordered list",
+				"class": "right",
+				"items": [
+					{
+						"item":"Item Text2",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text2",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text2",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					},
+					{
+						"item":"Item Text",
+						"sub_items":[]
+					}
+				]
+			},
+			{ 
+				"type":"additional",
+				"items":[
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					},
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					},
+					{
+						"text": "additional Info Text",
+						"link": "/_assets/pdf/"
+					}
+				],
+				"extrainfo": "don't erase"
+			}
+		]
+	}
+]

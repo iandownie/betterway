@@ -1,0 +1,24 @@
+$mark-size: 22px;
+.central{
+	position: relative;
+	margin: 0;
+	padding: $space-amount calc(50% - #{$content-width}/2) calc(#{$space-amount*2});
+	background-color: #f5f5f5;
+	width: 100%;
+	p{
+		position: relative;
+		color: #4e4e4e;
+		text-align: center;
+		padding-top: calc($space-amount/2);
+	}
+	img{
+		width: calc(#{$space-amount*5});
+		@include center(horizontal);
+	}
+	.mark{
+		@include logo(#{$mark-size}, white);
+		@include square(calc(#{$mark-size}*8), calc(#{$mark-size}*6));
+		@include transform(translateX(-50%) skew(-30deg));
+		@include position(absolute, calc(#{$space-amount}*2), 50%);
+	}
+}

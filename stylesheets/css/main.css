@@ -3259,6 +3259,14 @@ a {
   color: #0777bc;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 small {
   font-size: .6em;
   vertical-align: top;
@@ -4425,6 +4433,45 @@ body.confirmation-page .sign_up .content-block {
   color: #293956;
   font-size: 1.2em;
   margin-bottom: 1em;
+}
+
+.central {
+  position: relative;
+  margin: 0;
+  padding: 2em calc(50% - 44em/2) calc(4em);
+  background-color: #f5f5f5;
+  width: 100%;
+}
+.central p {
+  position: relative;
+  color: #4e4e4e;
+  text-align: center;
+  padding-top: calc($space-amount/2);
+}
+.central img {
+  width: calc(10em);
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  position: relative;
+  left: 50%;
+}
+.central .mark {
+  transform: skew(-30deg);
+  background-image: -moz-linear-gradient(74deg, white 25%, transparent 25%), -moz-linear-gradient(106deg, white 25%, transparent 25%), -moz-linear-gradient(-74deg, white 25%, transparent 25%), -moz-linear-gradient(-106deg, white 25%, transparent 25%), -moz-linear-gradient(-194deg, white 25%, transparent 25%), -moz-linear-gradient(14deg, white 25%, transparent 25%);
+  background-image: linear-gradient(-14deg, white 25%, transparent 25%), linear-gradient(14deg, white 25%, transparent 25%), linear-gradient(194deg, white 25%, transparent 25%), linear-gradient(-194deg, white 25%, transparent 25%), linear-gradient(-194deg, white 25%, transparent 25%), linear-gradient(14deg, white 25%, transparent 25%);
+  -moz-background-size: calc(22px*8) calc(22px*2);
+  background-size: calc(22px*8) calc(22px*2);
+  -webkit-background-size: calc(22px*8) calc(22px*2);
+  background-position: calc(22px*-4) -22px, calc(22px*4) 0px, 0px 22px, 0px 0px, 1px 0px, calc(22px*4 + 1px) 0px;
+  width: calc(22px*8);
+  height: calc(22px*6);
+  transform: translateX(-50%) skew(-30deg);
+  -webkit-transform: translateX(-50%) skew(-30deg);
+  -ms-transform: translateX(-50%) skew(-30deg);
+  position: absolute;
+  top: calc(2em*2);
+  left: 50%;
 }
 
 header {

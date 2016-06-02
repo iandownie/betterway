@@ -60,7 +60,12 @@ a {
   color: $brand-alt;
 }
 
-
+.italic{
+  font-style: italic;
+}
+.bold{
+  font-weight: 700;
+}
 small {
   font-size: .6em;
   vertical-align: top;

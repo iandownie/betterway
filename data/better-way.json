@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Home Page",
+		"name": "A Better Way",
 		"slug": "home_page",
 		"sections": [
 			{
@@ -12,792 +12,54 @@
 			},
 			{
 				"type": "expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text ",
-				"format": "paragraph"
+				"header": "About a Better Way",
+				"text": "To protect the American people by developing an overarching vision for national security based on a Republican blueprint for a strong America that can decisively confront the foreign and domestic threats of the 21st century. "
 			},
 			{
 				"type": "grid",
 				"items": [
 					{
-						"header": "Icon Block Header test",
-						"image": "Constitution.png",
-						"text": "Icon Block Text"
+						"header": "Poverty",
+						"image": "Poverty.png",
+						"text": "All of us should have the chance to make the most of our lives no matter where we start."
 					},
 					{
-						"header": "Icon Block Header",
-						"image": "Health.png",
-						"text": "Icon Block Text"
+						"header": "National Security",
+						"image": "NationalSecurity.png",
+						"text": "A confident America keeps its people safe, and keeps the peace in a dangerous world."
 					},
 					{
-						"header": "Icon Block Header",
+						"header": "Innovation & Investment",
 						"image": "Innovation.png",
 						"text": "Icon Block Text"
 					},
 					{
-						"header": "Icon Block Header",
-						"image": "NationalSecurity.png",
+						"header": "The Consitution",
+						"image": "Constitution.png",
 						"text": "Icon Block Text"
 					},
 					{
-						"header": "Icon Block Header",
-						"image": "Poverty.png",
+						"header": "Health Care",
+						"image": "Health.png",
 						"text": "Icon Block Text"
 					},
 					{
-						"header": "Icon Block Header",
+						"header": "Tax Reform",
 						"image": "TaxReform.png",
-						"text": "Icon Block Text"
+						"text": "In a Confident America, the IRS and the tax code work for the people, not against us."
 					}
 				]
 			},
 			{
 				"type": "sign_up",
 				"header": "Signup Section Header",
-				"text": "Signup Section Text",
-				"image": "image.png"
+				"text": "Signup Section Text"
 			}
 		]
 	},
 	{
-		"name": "Page Name1",
+		"name": "Poverty",
 		"slug": "page_slug1",
-		"sections": [
-			{
-				"type":"hero_video",
-				"link": "/",
-				"image": "Constitution.png",
-				"header": "Video Header Text",
-				"fb": "Facebook Share Text",
-				"fb_image": "Custom Facebook Image, if not video image",
-				"twt": "Twitter Share Text",
-				"video": "8tPnX7OPo0Q"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					}
-				],
-				"format": "ordered list",
-				"class": ""
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					}
-				],
-				"format": "ordered list",
-				"class": ""
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"class": "left",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"format": "ordered list",
-				"class": "right",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					}
-				]
-			},
-			{ 
-				"type":"additional",
-				"items":[
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					},
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					},
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Page Name2",
-		"slug": "page_slug2",
-		"sections": [
-			{
-				"type":"hero_video",
-				"link": "/",
-				"image": "Health.png",
-				"header": "Video Header Text",
-				"fb": "Facebook Share Text",
-				"fb_image": "Custom Facebook Image, if not video image",
-				"twt": "Twitter Share Text",
-				"video": "8tPnX7OPo0Q"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					}
-				],
-				"format": "ordered list",
-				"class": ""
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					}
-				],
-				"format": "ordered list",
-				"class": ""
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"class": "left",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"format": "ordered list",
-				"class": "right",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					}
-				]
-			},
-			{ 
-				"type":"additional",
-				"items":[
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					},
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					},
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Page Name3",
-		"slug": "page_slug3",
-		"sections": [
-			{
-				"type":"hero_video",
-				"link": "/",
-				"image": "Innovation.png",
-				"header": "Video Header Text",
-				"fb": "Facebook Share Text",
-				"fb_image": "Custom Facebook Image, if not video image",
-				"twt": "Twitter Share Text",
-				"video": "8tPnX7OPo0Q"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					}
-				],
-				"format": "ordered list",
-				"class": ""
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					}
-				],
-				"format": "ordered list",
-				"class": ""
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"class": "left",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"format": "ordered list",
-				"class": "right",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					}
-				]
-			},
-			{ 
-				"type":"additional",
-				"items":[
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					},
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					},
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Page Name4",
-		"slug": "page_slug4",
-		"sections": [
-			{
-				"type":"hero_video",
-				"link": "/",
-				"image": "NationalSecurity.png",
-				"header": "Video Header Text",
-				"fb": "Facebook Share Text",
-				"fb_image": "Custom Facebook Image, if not video image",
-				"twt": "Twitter Share Text",
-				"video": "8tPnX7OPo0Q"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					}
-				],
-				"format": "ordered list",
-				"class": ""
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					}
-				],
-				"format": "ordered list",
-				"class": ""
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"class": "left",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"format": "ordered list",
-				"class": "right",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					}
-				]
-			},
-			{ 
-				"type":"additional",
-				"items":[
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					},
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					},
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "Page Name5",
-		"slug": "page_slug5",
 		"sections": [
 			{
 				"type":"hero_video",
@@ -811,152 +73,40 @@
 			},
 			{
 				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
+				"header": "Our Principle",
+				"text": "If the American Dream isn’t true for everyone, it isn’t true for anyone. All of us should have the chance to make the most of our lives no matter where we start.",
 				"background": "background color"
 			},
 			{
+				"type": "central",
+				"text": "Our country is all about striving, but too many of our people are stuck. Over the years, Washington has made many promises, created many programs, and spent many trillions to fight poverty. Yet today in America, if you are raised poor, you are just likely to stay poor as you were 50 years ago. The key word here is ‘stay.’ Our welfare system is rigged to replace work, not encourage work. Washington measures success by how many programs it creates, not by how many people it helps. The system traps families in a cycle of poverty, shuffling them from program to program instead of helping them break free altogether.",
+				"header": "Our Challenge",
+				"image": "Poverty.png"
+			},
+			{
 				"type":"expander",
-				"header": "Content Header, if Any",
+				"header": "Our Ideas",
+				"class": "",
 				"items": [
 					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
+						"item":"Reward work.",
+						"sub_items":["If you are capable, we will expect you to work or prepare to work in exchange for benefits."]
 					},
 					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
+						"item":"Tailor benefits to people’s needs.",
+						"sub_items":["We will match poverty-fighting programs with your needs more effectively so that it’s easier for you to get back on your feet."]
 					},
 					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
+						"item":"Improve skills and schools.",
+						"sub_items":["We will make sure that poor kids have more opportunities to succeed at every stage, from childhood through college."]
 					},
 					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
+						"item":"Plan and save for the future.",
+						"sub_items":["We will make it easier for Americans to live worry-free and be retirement-ready."]
 					},
 					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					}
-				],
-				"format": "ordered list",
-				"class": ""
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					}
-				],
-				"format": "ordered list",
-				"class": ""
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
-				"format": "paragraph",
-				"class": "left",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any",
-				"format": "ordered list",
-				"class": "right",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
+						"item":"Demand results.",
+						"sub_items":["We will open up the system to accountability and collaboration, backing ideas that work on the front lines."]
 					}
 				]
 			},
@@ -980,13 +130,13 @@
 		]
 	},
 	{
-		"name": "Page Name6",
-		"slug": "page_slug6",
+		"name": "National Security",
+		"slug": "page_slug2",
 		"sections": [
 			{
 				"type":"hero_video",
 				"link": "/",
-				"image": "TaxReform.png",
+				"image": "NationalSecurity.png",
 				"header": "Video Header Text",
 				"fb": "Facebook Share Text",
 				"fb_image": "Custom Facebook Image, if not video image",
@@ -995,154 +145,44 @@
 			},
 			{
 				"type":"expander",
-				"header": "Content Header, if Any1",
-				"text": "Content Text",
-				"format": "paragraph",
+				"header": "Our Principle",
+				"text": "A confident America keeps its people safe, and keeps the peace in a dangerous world.",
 				"background": "background color"
 			},
 			{
+				"type": "central",
+				"text": "Our nation’s foreign policy is failing at nearly every turn. From refusing to enforce its red line in Syria, to legitimizing Iran’s nuclear enrichment program, to its failed reset with Russia, to tolerating a more bellicose North Korean regime, to cavalierly dismissing the threat while the most dangerous terrorist organization in history emerged, the Obama administration has experimented with a new foreign policy concept—leading from behind—that can now be declared an unambiguous failure. Our enemies no longer fear us and our allies no longer trust us. Terrorists and rogue regimes are stepping up to fill the void, leading to a humanitarian catastrophe in Syria that is causing the worst refugee crisis since World War II.",
+				"header": "Our Challenge",
+				"image": "NationalSecurity.png"
+			},
+			{
 				"type":"expander",
-				"header": "Content Header, if Any2",
+				"header": "Our Ideas",
 				"items": [
 					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
+						"item":"Defeat the Terrorists.",
+						"sub_items":["We must make it our top national security priority to prevail in the war against radical Islamic extremism"]
 					},
 					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
+						"item":"Protect the Homeland.",
+						"sub_items":["We must keep terrorists out of America, secure our borders, and stopping cyber-attacks."]
 					},
 					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
+						"item":"Tackle New Threats.",
+						"sub_items":["We must make sure our country is ready to tackle the threats of our time and beyond."]
 					},
 					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[
-							"Reduce the number of pages in the tax code and reduce the length of tax returns and IRS instructions.", 
-							"Ensure similar tax bills for taxpayers with similar incomes."
-						]
+						"item":"Defend Freedom.",
+						"sub_items":["We must restore American influence, advance free enterprise, and expand the community of free nations."]
 					}
 				],
-				"format": "ordered list",
 				"class": ""
 			},
 			{
 				"type":"expander",
-				"header": "Content Header, if Any3",
+				"header": "Content Header, if Any",
 				"text": "Content Text",
-				"format": "paragraph",
 				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any4",
-				"items": [
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					}
-				],
-				"format": "ordered list",
-				"class": ""
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any5",
-				"text": "Content Text1",
-				"format": "paragraph",
-				"class": "left",
-				"background": "background color"
-			},
-			{
-				"type":"expander",
-				"header": "Content Header, if Any6",
-				"format": "ordered list",
-				"class": "right",
-				"items": [
-					{
-						"item":"Item Text2",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text2",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text2",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					},
-					{
-						"item":"Item Text",
-						"sub_items":[]
-					}
-				]
 			},
 			{ 
 				"type":"additional",
@@ -1159,8 +199,7 @@
 						"text": "additional Info Text",
 						"link": "/_assets/pdf/"
 					}
-				],
-				"extrainfo": "don't erase"
+				]
 			}
 		]
 	}

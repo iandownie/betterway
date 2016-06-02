@@ -408,15 +408,25 @@ function loadAdditional(section, sectionData, pageIndex){// Imports and formats 
   }, 0);
 }
 
+function loadCentral(section, sectionData, pageIndex){// Imports and formats "additonal" type content sections
+  setTimeout(function(){
+    $('.page-'+pageIndex+' section.'+sectionData.type).load('html_imports/'+sectionData.type+'.html', function(){
+        $(this).find('p').text(sectionData.text);
+        $(this).find('img').attr('src', '_assets/images/icons/BetterWay_'+sectionData.image);
+        initiateFunctionality();
+    });
+  }, 0);
+}
+
 function loadPagers(pageIndex){// imports previous/next buttons on interior pages
   var pager = {next:{name:''}, previous:{name:''}};
   switch (true){
     case (1===pageIndex):
       pager.next.name=siteData[pageIndex+1].name;
-      pager.previous.name=siteData[siteData.length-1].name;
+      pager.previous.name=siteData[pageIndex-1].name;
       break;
     case (siteData.length-1===pageIndex):
-      pager.next.name=siteData[1].name;
+      pager.next.name=siteData[0].name;
       pager.previous.name=siteData[pageIndex-1].name;
       break;
     default:
@@ -485,6 +495,9 @@ function loadContent(section, sectionData, pageIndex){ // Builds the page depend
       break;
     case 'additional':
       innerElements=loadAdditional;
+      break;
+    case 'central':
+      innerElements=loadCentral;
       break;
   }
   innerElements(section, sectionData, pageIndex);
