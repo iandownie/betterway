@@ -130,7 +130,8 @@
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  -js-display: flex;
+display: flex;
 }@mixin box-shadow($args...){
   -webkit-box-shadow: $args;
   -moz-box-shadow: $args;
@@ -185,7 +186,8 @@
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
+  -js-display: flex;
+display: flex;
 }@mixin order($val) {
   -webkit-box-ordinal-group: $val;
   -moz-box-ordinal-group: $val;

@@ -12,8 +12,11 @@ section{
 		@include transition(all $medium);
 	}
 }
-.container > div{
-	@include transition (max-height 0.5s);
+.container {
+	min-height: calc(100vh - 15em);
+	> div{
+		@include transition (max-height 0.5s);
+	}
 }
 
 .content-block{
@@ -58,4 +61,10 @@ section{
 
 .ui-draggable{
 	cursor: move;
+}
+
+.centerme{
+	@include transform(translate(-50%, -50%));
+	display: block;
+	@include position(absolute, 50%, 50%);
 }

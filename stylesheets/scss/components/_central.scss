@@ -9,7 +9,7 @@ $mark-size: 22px;
 		position: relative;
 		color: #4e4e4e;
 		text-align: center;
-		padding-top: calc($space-amount/2);
+		padding-top: calc(#{$space-amount}/2);
 	}
 	img{
 		width: calc(#{$space-amount*5});

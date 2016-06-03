@@ -71,38 +71,40 @@ function social(){// Twitter and FB Button Functionality
   };
   var windowFeatures = "status=no,height=" + windowHeight + ",width=" + windowWidth + ",resizable=yes,left=" + leftPosition + ",top=" + topPosition + ",screenX=" + leftPosition + ",screenY=" + topPosition + ",toolbar=no,menubar=no,scrollbars=no,location=no,directories=no";
 
-  //twitter sharing
-  $('.twt-click').on('click', function(){
-
-    if($(this).data("title")!==undefined){
-      var tweetMsg = filterTags($(this).data("title")+$(this).data("share"))+'&original_referer=';
-    }else{
-      var tweetMsg = filterTags($(this).data("share"));
-    }
-    if($('#homepage-fullpage').length){
-      var twitterLink = "https://twitter.com/intent/tweet?text=" + tweetMsg;
-    }else{
-      var twitterLink = "https://twitter.com/share?text=" + tweetMsg;
-    }     
-    window.open((twitterLink),'Twitter', windowFeatures);
-  });
-  //facebook sharing
-  $('.fb-click').on('click', function(){
-    var pageInfo = $(this).data("title").replace(regex, '').replace(regexTwo, '');
-    var pageLink = 'http://'+window.location.hostname+'/'+$(this).data('url');
-    var imageLink= 'http://'+window.location.hostname+'/_assets/images/'+$(this).data('image');
-    var pageDescription = $(this).data('text');
-    if(undefined===imageLink||imageLink.length<1){
-      imageLink=$('#video-hero img').attr('src');
-    }
-    FB.ui({
-      method: 'feed',
-      name: pageInfo,
-      description: pageDescription,
-      link: pageLink,
-      picture:imageLink
+  setTimeout(function(){
+    //twitter sharing
+    $('.twt-click').on('click', function(){
+      if($(this).data("title")!==undefined){
+        var tweetMsg = filterTags($(this).data("title")+$(this).data("share"));
+      }else{
+        var tweetMsg = filterTags($(this).data("share"));
+      }
+      if($('#homepage-fullpage').length){
+        var twitterLink = "https://twitter.com/intent/tweet?text=" + tweetMsg+" pic.twitter.com/D5FXGi9Y0p better.gop&url=better.gop";
+      }else{
+        var twitterLink = "https://twitter.com/share?text=" + tweetMsg+" pic.twitter.com/D5FXGi9Y0p better.gop&url=better.gop";
+      }     
+      window.open((twitterLink),'Twitter', windowFeatures);
     });
-  });
+    //facebook sharing
+    $('.fb-click').on('click', function(){
+      var pageInfo = $(this).data("title").replace(regex, '').replace(regexTwo, '');
+      var pageLink = 'http://'+window.location.hostname+'/'+$(this).data('url');
+      var imageLink= 'http://'+window.location.hostname+'/_assets/images/'+$(this).data('image');
+      var pageDescription = $(this).data('text');
+      if(undefined===imageLink||imageLink.length<1){
+        imageLink=$('#video-hero img').attr('src');
+      }
+      FB.ui({
+        method: 'feed',
+        name: pageInfo,
+        description: pageDescription,
+        link: pageLink,
+        picture:imageLink
+      });
+    });
+  }, 1000);
+  
 
   //video sharing
   $("div.click-video").click(function(event){
@@ -223,7 +225,11 @@ function openVideo(){ //opens hero video modals
         overlayEffect: 'scale'
     });
     e.preventDefault();
-    $('.iframe-container .hero-video').attr('src', $(this).data('video'));
+    $('.custombox-modal-wrapper').click(function(){
+      setTimeout(function(){
+        $('.iframe-container iframe').attr('src', '');
+      },250);
+    });
   });
 }
 
@@ -272,11 +278,8 @@ function menuImports(data){ // Insert page links into menu
   data.forEach(function(e, i){
     if('home_page'===e.slug){
     }else{
-      var page=siteData.findIndex(function(element){
-        return element.slug===e.slug;
-      });
       $('section.menu ul').append($(container).load('/html_imports/'+html,function(){
-        $(this).children('h3').attr('data-page', page).text(e.name);
+        $(this).children('h3').attr('data-page', i).text(e.name);
       }));
     }
   });
@@ -284,7 +287,7 @@ function menuImports(data){ // Insert page links into menu
 
 function loadHeroVideo(section, sectionData, pageIndex){
   var overlay='rgba(220,180,180,0.5)';
-  var iframeSrc='https://www.youtube.com/embed/'+sectionData.video+'?autoplay=0&origin=http://'+window.location.hostname;
+  var iframeSrc='https://www.youtube.com/embed/'+sectionData.video+'?&autoplay=1&rel=0&showinfo=0&modestbranding=1&controls=0&autohide=1&color=white"&origin=http://'+window.location.hostname;
   var background='background-image: -moz-linear-gradient(-45deg, '+overlay+' 0%, '+overlay+' 100%), url(/_assets/images/video/'+sectionData.image+');background-image: -webkit-linear-gradient(-45deg, '+overlay+' 0%, '+overlay+' 100%), url(/_assets/images/video/'+sectionData.image+'); background-image: linear-gradient(135deg, '+overlay+' 0%, '+overlay+' 100%), url(/_assets/images/video/'+sectionData.image+'); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#bcbec0", endColorstr="#bcbec0",GradientType=1 ), url(/_assets/images/video/'+sectionData.image+'); background-image:linear-gradient(135deg, '+overlay+' 0%, '+overlay+' 100%), url(/_assets/images/video/'+sectionData.image+');';
   setTimeout(function(){
     $('.page-'+pageIndex+' section.'+sectionData.type).load('html_imports/'+sectionData.type+'.html', function(){

@@ -4,9 +4,10 @@
 	@include justify(center);
 	flex-wrap: wrap;
 	.grid-element{
-		@include square(calc(100%/3 - #{$space-amount}), calc((#{$content-width-large}/3 - (#{$space-amount}*2)/3) - 1em));
+		@include square(calc(100%/3 - #{$space-amount} - 1px), calc((#{$content-width-large}/3 - (#{$space-amount}*2)/3) - 1em));
 		cursor: pointer;
 		overflow: hidden;
+		float: left;
 		background: $white;
 		margin: calc(#{$space-amount}/2) calc(#{$space-amount}/2);
 		position: relative;

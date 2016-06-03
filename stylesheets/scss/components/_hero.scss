@@ -1,7 +1,6 @@
 #video-hero{
 	position: relative;
 	height: $content-width;
-	@include justify(center, column);
 	.content-block{
 		&:before, &:after{
 			z-index:0;
@@ -19,6 +18,10 @@
 			border-top: 5em solid transparent;
 			border-left: 10em solid rgba(255,255,255,0.25);
 			border-bottom: 5em solid transparent;
+		}
+		.page-0 & {
+			@include position(relative, 50%);
+			@include transform(translateY(-50%));
 		}
 		> {
 			z-index: 1;
@@ -82,7 +85,8 @@
 		}
 	}
 	.social{
-		display: flex;
+		-js-display: flex;
+display: flex;
 		width: 100%;
 		margin:0;
 		.active{

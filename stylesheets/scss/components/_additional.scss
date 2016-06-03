@@ -4,7 +4,7 @@
 	h2{
 		color: $white;
 		text-align: center;
-		margin-bottom: $vertical-size;
+		margin-bottom: $space-amount;
 	}
 	h4{
 		@include justify(center, column);

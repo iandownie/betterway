@@ -7,13 +7,13 @@
 				"type": "hero_video",
 				"link": "",
 				"image": "hero-1.jpg",
-				"header": "Video Header Text",
-				"video": "8tPnX7OPo0Q"
+				"header": "A Better Way",
+				"video": "nuys9Eo_68c"
 			},
 			{
 				"type": "expander",
 				"header": "About a Better Way",
-				"text": "To protect the American people by developing an overarching vision for national security based on a Republican blueprint for a strong America that can decisively confront the foreign and domestic threats of the 21st century. "
+				"text": "Our nation is on the wrong path. We can complain about it, but that won't change things. To get America back on track, we have to raise our gaze. We have to go bold. That's what A Better Way is about. It is a full slate of ideas to address some of the biggest challenges of our time. Developed with input from around the country, it looks past this president to what we can achieve in 2017 and beyond. It is our vision for a confident America, at home and abroad. It is a clear and compelling choice for our future."
 			},
 			{
 				"type": "grid",
@@ -31,17 +31,17 @@
 					{
 						"header": "Innovation & Investment",
 						"image": "Innovation.png",
-						"text": "Icon Block Text"
+						"text": "A Confident America is the best place in the world to live, work, start a business, and raise a family."
 					},
 					{
 						"header": "The Consitution",
 						"image": "Constitution.png",
-						"text": "Icon Block Text"
+						"text": "In a confident America, government exists to serve the people, not the other way around."
 					},
 					{
 						"header": "Health Care",
 						"image": "Health.png",
-						"text": "Icon Block Text"
+						"text": "In a Confident America, you can get the care you need, from the doctor you choose, at a cost you can afford."
 					},
 					{
 						"header": "Tax Reform",
@@ -52,8 +52,8 @@
 			},
 			{
 				"type": "sign_up",
-				"header": "Signup Section Header",
-				"text": "Signup Section Text"
+				"header": "Signup For Updates",
+				"text": "Enter your email address below"
 			}
 		]
 	},
@@ -64,12 +64,12 @@
 			{
 				"type":"hero_video",
 				"link": "/",
-				"image": "Poverty.png",
-				"header": "Video Header Text",
-				"fb": "Facebook Share Text",
-				"fb_image": "Custom Facebook Image, if not video image",
-				"twt": "Twitter Share Text",
-				"video": "8tPnX7OPo0Q"
+				"image": "hero-poverty.jpg",
+				"header": "Poverty",
+				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"fb_image": "video/hero-1.jpg",
+				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"video": "nuys9Eo_68c"
 			},
 			{
 				"type":"expander",
@@ -109,23 +109,6 @@
 						"sub_items":["We will open up the system to accountability and collaboration, backing ideas that work on the front lines."]
 					}
 				]
-			},
-			{ 
-				"type":"additional",
-				"items":[
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					},
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					},
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					}
-				]
 			}
 		]
 	},
@@ -136,12 +119,12 @@
 			{
 				"type":"hero_video",
 				"link": "/",
-				"image": "NationalSecurity.png",
-				"header": "Video Header Text",
-				"fb": "Facebook Share Text",
-				"fb_image": "Custom Facebook Image, if not video image",
-				"twt": "Twitter Share Text",
-				"video": "8tPnX7OPo0Q"
+				"image": "hero-national-security.jpg",
+				"header": "National Security",
+				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"fb_image": "video/hero-1.jpg",
+				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"video": "nuys9Eo_68c"
 			},
 			{
 				"type":"expander",
@@ -177,29 +160,94 @@
 					}
 				],
 				"class": ""
+			}
+		]
+	},
+	{
+		"name": "Innovation & Investment",
+		"slug": "page_slug3",
+		"sections": [
+			{
+				"type":"hero_video",
+				"link": "/",
+				"image": "hero-innovation.jpg",
+				"header": "Innovation & Investment",
+				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"fb_image": "video/hero-1.jpg",
+				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"video": "nuys9Eo_68c"
 			},
 			{
 				"type":"expander",
-				"header": "Content Header, if Any",
-				"text": "Content Text",
+				"header": "Our Principle",
+				"text": "A Confident America is the best place in the world to live, work, start a business, and raise a family.",
 				"background": "background color"
+			}
+		]
+	},
+	{
+		"name": "The Constitution",
+		"slug": "page_slug4",
+		"sections": [
+			{
+				"type":"hero_video",
+				"link": "/",
+				"image": "hero-constitution.jpg",
+				"header": "The Constitution",
+				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"fb_image": "video/hero-1.jpg",
+				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"video": "nuys9Eo_68c"
 			},
-			{ 
-				"type":"additional",
-				"items":[
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					},
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					},
-					{
-						"text": "additional Info Text",
-						"link": "/_assets/pdf/"
-					}
-				]
+			{
+				"type":"expander",
+				"header": "Our Principle",
+				"text": "There is no better way than the Constitution. In a confident America, government exists to serve the people, not the other way around.",
+				"background": "background color"
+			}
+		]
+	},
+	{
+		"name": "Health Care",
+		"slug": "page_slug5",
+		"sections": [
+			{
+				"type":"hero_video",
+				"link": "/",
+				"image": "hero-healthcare.jpg",
+				"header": "Health Care",
+				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"fb_image": "video/hero-1.jpg",
+				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"video": "nuys9Eo_68c"
+			},
+			{
+				"type":"expander",
+				"header": "Our Principle",
+				"text": "In a Confident America, we can get the care we need, from the doctor we choose, at a cost we can afford.",
+				"background": "background color"
+			}
+		]
+	},
+	{
+		"name": "Tax Reform",
+		"slug": "page_slug6",
+		"sections": [
+			{
+				"type":"hero_video",
+				"link": "/",
+				"image": "hero-taxreform.jpg",
+				"header": "Tax Reform",
+				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"fb_image": "video/hero-1.jpg",
+				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"video": "nuys9Eo_68c"
+			},
+			{
+				"type":"expander",
+				"header": "Our Principle",
+				"text": "We send too much money to Washington and too many jobs overseas. In a Confident America, the IRS and the tax code work for the people, not against us.",
+				"background": "background color"
 			}
 		]
 	}

@@ -1,3 +1,13 @@
+@media screen and (max-width: $VL){
+	.header{
+		.mark {
+			@include square(calc(4px*8), calc(4px*6));
+			@include logo(4px, $brand-contrast);
+			@include transform(rotateY(360deg) rotateX(360deg) skew(-30deg) translateY(-50%));
+		}
+	}
+}
+
 @media screen and (max-width: $L){
 	body{
 		font-size: calc(6px + 0.5vw);
@@ -5,11 +15,9 @@
 }
 
 @media screen and (max-width: $M){
-
 	body{
 		font-size: calc(8px + 0.5vw);
 	}
-
 	header{
 		width: 100vw;
 		h1{
@@ -19,7 +27,6 @@
 			width: calc(#{$vertical-size}/2 + #{$space-amount} + 3em)
 		}
 	}
-
 	.last-expanders{
 		display: initial;
 	}
@@ -29,11 +36,21 @@
 			@include transform(none);
 			width: calc(100vw);
 			.pager{
-				&.previous{
-					@include transform(translateX(calc(-100% + 19em)));
+				&.previous, &.next{
+					@include transform(none);
+					.label{
+						margin: 0 $space-amount;
+						min-width: 0;
+					}
 				}
-				&.next{
-					@include transform(translateX(calc(100% - 23em)));
+				&.next .label{
+					margin-left: 0;
+				}
+				&.previous .label{
+					margin-right: 0;
+				}
+				.button{
+					min-width: 11em;
 				}
 			}
 		}
@@ -43,13 +60,32 @@
 			padding: 0 $space-amount;
 		}
 	}
-
 	.grid{
-		padding-right: $space-amount;
-		padding-left: $space-amount;
+		padding-right: 0;
+		padding-left: 0;
+		width: calc(100% + #{$space-amount}*2);
+		transform: translateX(calc(#{$space-amount}*-1));
+		.grid-element{
+			width: calc(100%/2 - #{$space-amount});
+			margin: calc(#{$space-amount}/4);
+		}
 	}
-
 	.content{
 		width: 90%;
+	}
+	.central{
+		padding-right: $space-amount;
+		padding-left: $space-amount;
+		.mark{
+			@include logo(11px, white);
+			@include square(calc(11px*8), calc(11px*6));
+			@include transform(translateX(-50%) skew(-30deg));
+		}
+	}
+	.button{
+		min-width: 14em;
+	}
+	.additional{
+		padding-left: 0;
 	}
 }

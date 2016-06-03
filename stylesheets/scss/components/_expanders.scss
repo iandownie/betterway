@@ -125,7 +125,8 @@
 }
 .last-expanders{
 	display: -webkit-box;
-	display: flex;
+	-js-display: flex;
+display: flex;
 	.left, .right{
 		width: 50%;
 		background: #f5f5f5; /* Old browsers */
