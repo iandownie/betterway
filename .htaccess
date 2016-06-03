@@ -1,8 +1,8 @@
 # BEGIN Basic Auth
-# AuthType Basic
-# AuthName "Authorization Required"
-# AuthUserFile {/absolute/server/path/}/.htpasswd
-# Require valid-user
+AuthType Basic
+AuthName "Authorization Required"
+AuthUserFile /var/www/active/vhost/better.gop/.htpasswd
+Require valid-user
 # END Basic Auth
 
 ErrorDocument 404 /404.html
