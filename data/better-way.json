@@ -74,7 +74,7 @@
 			{
 				"type":"expander",
 				"header": "Our Principle",
-				"text": "If the American Dream isn’t true for everyone, it isn’t true for anyone. All of us should have the chance to make the most of our lives no matter where we start.",
+				"text": "If the American Dream isn’t true for everyone, it isn’t true for anyone. All of us should have the chance to make the most of our lives no matter where we start. Check back on June 7th for updates.",
 				"background": "background color"
 			},
 			{
@@ -129,7 +129,7 @@
 			{
 				"type":"expander",
 				"header": "Our Principle",
-				"text": "A confident America keeps its people safe, and keeps the peace in a dangerous world.",
+				"text": "A confident America keeps its people safe, and keeps the peace in a dangerous world. Check back on June 9th for updates.",
 				"background": "background color"
 			},
 			{
@@ -182,6 +182,12 @@
 				"header": "Our Principle",
 				"text": "A Confident America is the best place in the world to live, work, start a business, and raise a family.",
 				"background": "background color"
+			},
+			{
+				"type": "central",
+				"text": "To be announced.",
+				"header": "Our Challenge",
+				"image": "Innovation.png"
 			}
 		]
 	},
@@ -204,6 +210,12 @@
 				"header": "Our Principle",
 				"text": "There is no better way than the Constitution. In a confident America, government exists to serve the people, not the other way around.",
 				"background": "background color"
+			},
+			{
+				"type": "central",
+				"text": "To be announced.",
+				"header": "Our Challenge",
+				"image": "Constitution.png"
 			}
 		]
 	},
@@ -226,6 +238,12 @@
 				"header": "Our Principle",
 				"text": "In a Confident America, we can get the care we need, from the doctor we choose, at a cost we can afford.",
 				"background": "background color"
+			},
+			{
+				"type": "central",
+				"text": "To be announced.",
+				"header": "Our Challenge",
+				"image": "Health.png"
 			}
 		]
 	},
@@ -248,6 +266,12 @@
 				"header": "Our Principle",
 				"text": "We send too much money to Washington and too many jobs overseas. In a Confident America, the IRS and the tax code work for the people, not against us.",
 				"background": "background color"
+			},
+			{
+				"type": "central",
+				"text": "To be announced.",
+				"header": "Our Challenge",
+				"image": "TaxReform.png"
 			}
 		]
 	}
