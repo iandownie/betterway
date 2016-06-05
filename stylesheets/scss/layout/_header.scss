@@ -1,5 +1,5 @@
 header{
-  width: calc(100vw - 15px);
+  width: calc(100vw);
   @include position(fixed, 0, 0);
   z-index: 1;
 }

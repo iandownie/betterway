@@ -82,13 +82,13 @@
 		@include transform(translateY(-50%));
 		.pager{
 			div div{
-				@include justify(center, column);
+				/*@include justify(center, column);*/
 				&.label{
 					min-width: 6em;
 					color: $brand;
 					font-size: 0.8em;
 					margin: 0 calc(#{$space-amount} + #{$space-amount}*0.25);
-					
+					padding: 2.1em 0;
 				}
 				&:before{
 					height:100%;
@@ -100,13 +100,21 @@
 				}
 			}
 			&.next{
-				@include transform(translateX(calc(100% - 9.5em)));
+				/*@include transform(translateX(calc(100% - 9.5em)));*/
+				@include transform(translateX(62%));
+				float: right;
 				.label{
 					text-align: right;
+					float: left;
 				}
 			}
 			&.previous{
-				@include transform(translateX(calc(-100% + 9.5em)));
+				/*@include transform(translateX(calc(-100% + 9.5em)));*/
+				@include transform(translateX(-62%));
+				float: left;
+				.label{
+					float: right;
+				}
 			}
 			&:hover{
 				.label{

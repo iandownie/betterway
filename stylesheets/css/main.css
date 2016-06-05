@@ -3766,26 +3766,14 @@ input[type=range]:focus::-ms-fill-upper {
   -ms-transform: translateY(-50%);
 }
 .expander .pagers .pager div div {
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  -js-display: flex;
-  display: flex;
+  /*@include justify(center, column);*/
 }
 .expander .pagers .pager div div.label {
   min-width: 6em;
   color: #293956;
   font-size: 0.8em;
   margin: 0 calc(2em + 2em*0.25);
+  padding: 2.1em 0;
 }
 .expander .pagers .pager div div:before {
   height: 100%;
@@ -3798,17 +3786,25 @@ input[type=range]:focus::-ms-fill-upper {
   padding: 1.5em 0;
 }
 .expander .pagers .pager.next {
-  transform: translateX(calc(100% - 9.5em));
-  -webkit-transform: translateX(calc(100% - 9.5em));
-  -ms-transform: translateX(calc(100% - 9.5em));
+  /*@include transform(translateX(calc(100% - 9.5em)));*/
+  transform: translateX(62%);
+  -webkit-transform: translateX(62%);
+  -ms-transform: translateX(62%);
+  float: right;
 }
 .expander .pagers .pager.next .label {
   text-align: right;
+  float: left;
 }
 .expander .pagers .pager.previous {
-  transform: translateX(calc(-100% + 9.5em));
-  -webkit-transform: translateX(calc(-100% + 9.5em));
-  -ms-transform: translateX(calc(-100% + 9.5em));
+  /*@include transform(translateX(calc(-100% + 9.5em)));*/
+  transform: translateX(-62%);
+  -webkit-transform: translateX(-62%);
+  -ms-transform: translateX(-62%);
+  float: left;
+}
+.expander .pagers .pager.previous .label {
+  float: right;
 }
 .expander .pagers .pager:hover {
   transform: none;
@@ -4488,7 +4484,7 @@ body.confirmation-page .sign_up .content-block {
 }
 
 header {
-  width: calc(100vw - 15px);
+  width: calc(100vw);
   position: fixed;
   top: 0;
   left: 0;
