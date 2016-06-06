@@ -4867,6 +4867,7 @@ section.menu .menu-element {
   }
   .expander .pagers .pager .button {
     min-width: 11em;
+    max-width: 11em;
   }
   .expander.left, .expander.right {
     width: 100%;
