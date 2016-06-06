@@ -18,7 +18,7 @@ function init(){//Initiates the page
         sectionCount++;
       });
     });
-  }, 0);
+  }, 100);
 }
 
 window.onload = function(){// init facebook share function
@@ -315,9 +315,9 @@ function loadHeroVideo(section, sectionData, pageIndex){
           social();
         }
         initiateFunctionality();
-      },0);
+      },100);
     });
-  }, 0);
+  }, 100);
 }
 
 function loadExpander(section, sectionData, pageIndex){ // import and formats expander type content sections  and sub items
@@ -363,7 +363,7 @@ function loadExpander(section, sectionData, pageIndex){ // import and formats ex
         lastExpander.append($(section.selector));
       }
     });
-  },0);
+  },100);
 }
 
 function loadGrid(section, sectionData){ // import and formats grid type content sections and grid items
@@ -378,7 +378,7 @@ function loadGrid(section, sectionData){ // import and formats grid type content
           initiateFunctionality();
         }
       });
-    }, 0);
+    }, 100);
   });
 }
 
@@ -390,7 +390,7 @@ function loadSignUp(section, sectionData, pageIndex){// Imports and formats sign
         thisSection.find('h2').text(sectionData.header);
         initiateFunctionality();
     });
-  }, 0);
+  }, 100);
 }
 
 function loadAdditional(section, sectionData, pageIndex){// Imports and formats "additonal" type content sections
@@ -407,7 +407,7 @@ function loadAdditional(section, sectionData, pageIndex){// Imports and formats 
           }));
         });
     });
-  }, 0);
+  }, 100);
 }
 
 function loadCentral(section, sectionData, pageIndex){// Imports and formats "additonal" type content sections
@@ -417,7 +417,7 @@ function loadCentral(section, sectionData, pageIndex){// Imports and formats "ad
         $(this).find('img').attr('src', '_assets/images/icons/BetterWay_'+sectionData.image);
         initiateFunctionality();
     });
-  }, 0);
+  }, 100);
 }
 
 function loadPagers(pageIndex){// imports previous/next buttons on interior pages
