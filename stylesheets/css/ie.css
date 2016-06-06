@@ -3,6 +3,24 @@
 }
 
 
+.header > * {
+	float: left;
+}
+
+.header > h1{
+	margin: 0 29vw;
+}
+
+.hamburger{
+	float: left;
+    position: relative;
+    top: 1.5em;
+}
+
+.menu-control .labels{
+	float: left;
+}
+
 .block-container:before, .block-container::before, .block-container:after, .block-container::after{
 	position: relative;
 }

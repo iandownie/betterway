@@ -67,7 +67,7 @@
 				"image": "hero-poverty.jpg",
 				"header": "Poverty",
 				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "video/hero-1.jpg",
+				"fb_image": "social.jpg",
 				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
 				"video": "nuys9Eo_68c"
 			},
@@ -95,7 +95,7 @@
 				"image": "hero-national-security.jpg",
 				"header": "National Security",
 				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "video/hero-1.jpg",
+				"fb_image": "social.jpg",
 				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
 				"video": "nuys9Eo_68c"
 			},
@@ -123,7 +123,7 @@
 				"image": "hero-innovation.jpg",
 				"header": "Innovation & Investment",
 				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "video/hero-1.jpg",
+				"fb_image": "social.jpg",
 				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
 				"video": "nuys9Eo_68c"
 			},
@@ -135,7 +135,7 @@
 			},
 			{
 				"type": "central",
-				"text": "To be announced.",
+				"text": "Coming this month.",
 				"header": "Our Challenge",
 				"image": "Innovation.png"
 			}
@@ -151,7 +151,7 @@
 				"image": "hero-constitution.jpg",
 				"header": "The Constitution",
 				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "video/hero-1.jpg",
+				"fb_image": "social.jpg",
 				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
 				"video": "nuys9Eo_68c"
 			},
@@ -163,7 +163,7 @@
 			},
 			{
 				"type": "central",
-				"text": "To be announced.",
+				"text": "Coming this month.",
 				"header": "Our Challenge",
 				"image": "Constitution.png"
 			}
@@ -179,7 +179,7 @@
 				"image": "hero-healthcare.jpg",
 				"header": "Health Care",
 				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "video/hero-1.jpg",
+				"fb_image": "social.jpg",
 				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
 				"video": "nuys9Eo_68c"
 			},
@@ -191,7 +191,7 @@
 			},
 			{
 				"type": "central",
-				"text": "To be announced.",
+				"text": "Coming this month.",
 				"header": "Our Challenge",
 				"image": "Health.png"
 			}
@@ -207,7 +207,7 @@
 				"image": "hero-taxreform.jpg",
 				"header": "Tax Reform",
 				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "video/hero-1.jpg",
+				"fb_image": "social.jpg",
 				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
 				"video": "nuys9Eo_68c"
 			},
@@ -219,7 +219,7 @@
 			},
 			{
 				"type": "central",
-				"text": "To be announced.",
+				"text": "Coming this month.",
 				"header": "Our Challenge",
 				"image": "TaxReform.png"
 			}

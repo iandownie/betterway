@@ -80,9 +80,9 @@ function social(){// Twitter and FB Button Functionality
         var tweetMsg = filterTags($(this).data("share"));
       }
       if($('#homepage-fullpage').length){
-        var twitterLink = "https://twitter.com/intent/tweet?text=" + tweetMsg+" pic.twitter.com/D5FXGi9Y0p better.gop&url=better.gop";
+        var twitterLink = "https://twitter.com/intent/tweet?text=" + tweetMsg+" pic.twitter.com/vpXG8tJQcL better.gop&url=better.gop";
       }else{
-        var twitterLink = "https://twitter.com/share?text=" + tweetMsg+" pic.twitter.com/D5FXGi9Y0p better.gop&url=better.gop";
+        var twitterLink = "https://twitter.com/share?text=" + tweetMsg+" pic.twitter.com/vpXG8tJQcL better.gop&url=better.gop";
       }     
       window.open((twitterLink),'Twitter', windowFeatures);
     });
@@ -237,13 +237,12 @@ function openExpanders(){ //Collapses and opens expanders
   $('.expander').each(function(){
     var expander = $(this);
     var content = expander.find('.content-block');
-    var contentHeight = content.height();
+    var contentHeight = content.height()*1.5;
     content.css('max-height', contentHeight);
-    if(contentHeight>300){
+    if(contentHeight>350){
       expander.addClass('collapsed');
       expander.find('button').click(function(event){
         expander.toggleClass('collapsed');
-
         var text = $(this).children('.text').text();
         $(this).children('.text').text(" Expand To read more" === text ? " Collapse" : " Expand To read more");
         $(this).children('.plus').text(" Expand To read more" === text ? "-" : "+" );
