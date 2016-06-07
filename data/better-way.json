@@ -90,7 +90,7 @@
 				"items": [
 					{
 						"item":"Reward work.",
-						"sub_items":["If you are capable, we will expect you to work or prepare to work."]
+						"sub_items":["If you are capable, we will expect you to prepare for work."]
 					},
 					{
 						"item":"Tailor benefits to people’s needs.",
@@ -119,7 +119,7 @@
 					},
 					{
 						"text": "Full Task Force Report (PDF)",
-						"link": "/_assets/pdf/Full_Task_Force_Report_Poverty.pdf"
+						"link": "/_assets/pdf/ABetterWay-Poverty-PolicyPaper.pdf"
 					}
 				]
 			}
