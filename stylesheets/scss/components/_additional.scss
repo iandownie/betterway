@@ -11,6 +11,8 @@
 		color: $white;
 		font-weight: 900;
 		margin: 0 2em;
+		float: left;
+		padding-top: 1em;
 	}
 	ul{
 		margin: 0;
@@ -18,14 +20,14 @@
 		flex-wrap: wrap;
 		li{
 			list-style: none;
-			@include justify(center);
-			flex: 1 0 51%;
+			width: 50%;
 			margin: calc(#{$vertical-size}/4);
 		}
 	}
 	.button{
 		margin: 0 2em;
 		left: initial;
+		float: right;
 		@include transform(translateX(0));
 		&:before{
 			border: 2px solid $white;

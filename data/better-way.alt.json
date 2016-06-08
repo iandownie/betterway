@@ -29,12 +29,12 @@
 						"text": "A confident America keeps its people safe, and keeps the peace in a dangerous world."
 					},
 					{
-						"header": "Innovation & Investment",
+						"header": "The Economy",
 						"image": "Innovation.png",
 						"text": "A Confident America is the best place in the world to live, work, start a business, and raise a family."
 					},
 					{
-						"header": "The Consitution",
+						"header": "The Constitution",
 						"image": "Constitution.png",
 						"text": "In a confident America, government exists to serve the people, not the other way around."
 					},
@@ -67,14 +67,14 @@
 				"image": "hero-poverty.jpg",
 				"header": "Poverty",
 				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "video/hero-1.jpg",
-				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"video": "nuys9Eo_68c"
+				"fb_image": "social.jpg",
+				"twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
+				"video": "dIAJWEKbUXo"
 			},
 			{
 				"type":"expander",
 				"header": "Our Principle",
-				"text": "If the American Dream isn’t true for everyone, it isn’t true for anyone. All of us should have the chance to make the most of our lives no matter where we start. Check back on June 7th for updates.",
+				"text": "If the American Dream isn’t true for everyone, it isn’t true for anyone. All of us should have the chance to make the most of our lives no matter where we start.",
 				"background": "background color"
 			},
 			{
@@ -90,11 +90,11 @@
 				"items": [
 					{
 						"item":"Reward work.",
-						"sub_items":["If you are capable, we will expect you to work or prepare to work in exchange for benefits."]
+						"sub_items":["If you are capable, we will expect you to prepare for work."]
 					},
 					{
 						"item":"Tailor benefits to people’s needs.",
-						"sub_items":["We will match poverty-fighting programs with your needs more effectively so that it’s easier for you to get back on your feet."]
+						"sub_items":["We will match poverty-fighting programs with your needs so that it’s easier for you to get back on your feet."]
 					},
 					{
 						"item":"Improve skills and schools.",
@@ -102,11 +102,36 @@
 					},
 					{
 						"item":"Plan and save for the future.",
-						"sub_items":["We will make it easier for Americans to live worry-free and be retirement-ready."]
+						"sub_items":["We will make it easier for you and your family to plan for the future and be retirement-ready."]
 					},
 					{
 						"item":"Demand results.",
 						"sub_items":["We will open up the system to accountability and collaboration, backing ideas that work on the front lines."]
+					}
+				]
+			},
+			{ 
+				"type":"additional",
+				"items":[
+					{
+						"text": "Snapshot (PDF)",
+						"link": "/_assets/pdf/ABetterWay-Poverty-Snapshot.pdf"
+					},
+					{
+						"text": "Full Task Force Report (PDF)",
+						"link": "/_assets/pdf/ABetterWay-Poverty-PolicyPaper.pdf"
+					},
+					{
+						"text": "Fact Sheet (PDF)",
+						"link": "/_assets/pdf/ABetterWay-Poverty-FactSheet.pdf"
+					},
+					{
+						"text": "By The Numbers (PDF)",
+						"link": "/_assets/pdf/ABetterWay-Poverty-FactSheet.pdf"
+					},
+					{
+						"text": "FAQ (PDF)",
+						"link": "/_assets/pdf/ABetterWay-Poverty-FactSheet.pdf"
 					}
 				]
 			}
@@ -122,14 +147,14 @@
 				"image": "hero-national-security.jpg",
 				"header": "National Security",
 				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "video/hero-1.jpg",
-				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"fb_image": "social.jpg",
+				"twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
 				"video": "nuys9Eo_68c"
 			},
 			{
 				"type":"expander",
 				"header": "Our Principle",
-				"text": "A confident America keeps its people safe, and keeps the peace in a dangerous world. Check back on June 9th for updates.",
+				"text": "A confident America keeps its people safe, and keeps the peace in a dangerous world.",
 				"background": "background color"
 			},
 			{
@@ -141,6 +166,7 @@
 			{
 				"type":"expander",
 				"header": "Our Ideas",
+				"class": "",
 				"items": [
 					{
 						"item":"Defeat the Terrorists.",
@@ -148,7 +174,7 @@
 					},
 					{
 						"item":"Protect the Homeland.",
-						"sub_items":["We must keep terrorists out of America, secure our borders, and stopping cyber-attacks."]
+						"sub_items":[" We must keep terrorists out of America, secure our borders, and stopping cyber-attacks."]
 					},
 					{
 						"item":"Tackle New Threats.",
@@ -158,23 +184,31 @@
 						"item":"Defend Freedom.",
 						"sub_items":["We must restore American influence, advance free enterprise, and expand the community of free nations."]
 					}
-				],
-				"class": ""
+				]
+			},
+			{ 
+				"type":"additional",
+				"items":[
+					{
+						"text": "Snapshot (PDF)",
+						"link": "/_assets/pdf/ABetterWay-NSTF-Snapshot.pdf"
+					}
+				]
 			}
 		]
 	},
 	{
-		"name": "Innovation & Investment",
+		"name": "The Economy",
 		"slug": "page_slug3",
 		"sections": [
 			{
 				"type":"hero_video",
 				"link": "/",
 				"image": "hero-innovation.jpg",
-				"header": "Innovation & Investment",
+				"header": "The Economy",
 				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "video/hero-1.jpg",
-				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"fb_image": "social.jpg",
+				"twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
 				"video": "nuys9Eo_68c"
 			},
 			{
@@ -185,7 +219,7 @@
 			},
 			{
 				"type": "central",
-				"text": "To be announced.",
+				"text": "Coming this month.",
 				"header": "Our Challenge",
 				"image": "Innovation.png"
 			}
@@ -201,8 +235,8 @@
 				"image": "hero-constitution.jpg",
 				"header": "The Constitution",
 				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "video/hero-1.jpg",
-				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"fb_image": "social.jpg",
+				"twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
 				"video": "nuys9Eo_68c"
 			},
 			{
@@ -213,7 +247,7 @@
 			},
 			{
 				"type": "central",
-				"text": "To be announced.",
+				"text": "Coming this month.",
 				"header": "Our Challenge",
 				"image": "Constitution.png"
 			}
@@ -229,8 +263,8 @@
 				"image": "hero-healthcare.jpg",
 				"header": "Health Care",
 				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "video/hero-1.jpg",
-				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"fb_image": "social.jpg",
+				"twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
 				"video": "nuys9Eo_68c"
 			},
 			{
@@ -241,7 +275,7 @@
 			},
 			{
 				"type": "central",
-				"text": "To be announced.",
+				"text": "Coming this month.",
 				"header": "Our Challenge",
 				"image": "Health.png"
 			}
@@ -257,8 +291,8 @@
 				"image": "hero-taxreform.jpg",
 				"header": "Tax Reform",
 				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "video/hero-1.jpg",
-				"twt": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+				"fb_image": "social.jpg",
+				"twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
 				"video": "nuys9Eo_68c"
 			},
 			{
@@ -269,7 +303,7 @@
 			},
 			{
 				"type": "central",
-				"text": "To be announced.",
+				"text": "Coming this month.",
 				"header": "Our Challenge",
 				"image": "TaxReform.png"
 			}

@@ -4332,6 +4332,8 @@ body.confirmation-page .sign_up .content-block {
   color: #ffffff;
   font-weight: 900;
   margin: 0 2em;
+  float: left;
+  padding-top: 1em;
 }
 .additional ul {
   margin: 0;
@@ -4353,26 +4355,13 @@ body.confirmation-page .sign_up .content-block {
 }
 .additional ul li {
   list-style: none;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-flex-direction: row;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  -js-display: flex;
-  display: flex;
-  flex: 1 0 51%;
+  width: 50%;
   margin: calc(6em/4);
 }
 .additional .button {
   margin: 0 2em;
   left: initial;
+  float: right;
   transform: translateX(0);
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
