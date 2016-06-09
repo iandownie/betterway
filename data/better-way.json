@@ -170,11 +170,11 @@
 				"items": [
 					{
 						"item":"Defeat the Terrorists.",
-						"sub_items":["We must make it our top national security priority to prevail in the war against radical Islamic extremism"]
+						"sub_items":["We must make it our top national security priority to prevail in the war against radical Islamic extremism."]
 					},
 					{
 						"item":"Protect the Homeland.",
-						"sub_items":[" We must keep terrorists out of America, secure our borders, and stopping cyber-attacks."]
+						"sub_items":[" We must keep terrorists out of America, secure our borders, and stop cyber-attacks."]
 					},
 					{
 						"item":"Tackle New Threats.",
