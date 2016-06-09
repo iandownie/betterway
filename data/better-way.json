@@ -90,7 +90,7 @@
 				"items": [
 					{
 						"item":"Reward work.",
-						"sub_items":["If you are capable, we will expect you to prepare for work."]
+						"sub_items":["If you are capable, we will expect you to work or to prepare for work."]
 					},
 					{
 						"item":"Tailor benefits to people’s needs.",
@@ -127,11 +127,11 @@
 					},
 					{
 						"text": "By The Numbers (PDF)",
-						"link": "/_assets/pdf/ABetterWay-Poverty-FactSheet.pdf"
+						"link": "/_assets/pdf/ABetterWay-Poverty-BytheNumbers.pdf"
 					},
 					{
 						"text": "FAQ (PDF)",
-						"link": "/_assets/pdf/ABetterWay-Poverty-FactSheet.pdf"
+						"link": "/_assets/pdf/ABetterWay-Poverty-FAQ.pdf"
 					}
 				]
 			}
@@ -192,6 +192,10 @@
 					{
 						"text": "Snapshot (PDF)",
 						"link": "/_assets/pdf/ABetterWay-NSTF-Snapshot.pdf"
+					},
+					{
+						"text": "Full Task Force Report (PDF)",
+						"link": "/_assets/pdf/ABetterWay-NSTF-PolicyPaper.pdf"
 					}
 				]
 			}

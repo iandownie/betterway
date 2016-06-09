@@ -4902,8 +4902,25 @@ section.menu .menu-element {
     min-width: 14em;
   }
 
-  .additional {
+  .additional ul {
     padding-left: 0;
+  }
+  .additional ul li {
+    width: 100%;
+    margin: 0 calc(6em/4) calc(6em/4);
+  }
+  .additional ul li h4 {
+    float: none;
+    text-align: center;
+  }
+  .additional ul li .button {
+    float: none;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    position: relative;
+    left: 50%;
+    margin: 1em 0 0;
   }
 }
 

@@ -87,6 +87,21 @@
 		min-width: 14em;
 	}
 	.additional{
-		padding-left: 0;
+		ul{
+			padding-left: 0;
+			li{
+				width: 100%;
+				margin: 0 calc(#{$vertical-size}/4) calc(#{$vertical-size}/4);
+				h4{
+					float: none;
+					text-align: center;
+				}
+				.button{
+					float: none;
+					@include center(horizontal);
+					margin: 1em 0 0;
+				}
+			}
+		}
 	}
 }
