@@ -159,9 +159,41 @@
 			},
 			{
 				"type": "central",
-				"text": "Check back on June 9th for updates.",
+				"text": "Our nation’s foreign policy is failing at nearly every turn. From refusing to enforce its red line in Syria, to legitimizing Iran’s nuclear enrichment program, to its failed reset with Russia, to tolerating a more bellicose North Korean regime, to cavalierly dismissing the threat while the most dangerous terrorist organization in history emerged, the Obama administration has experimented with a new foreign policy concept—leading from behind—that can now be declared an unambiguous failure. Our enemies no longer fear us and our allies no longer trust us. Terrorists and rogue regimes are stepping up to fill the void, leading to a humanitarian catastrophe in Syria that is causing the worst refugee crisis since World War II.",
 				"header": "Our Challenge",
 				"image": "NationalSecurity.png"
+			},
+			{
+				"type":"expander",
+				"header": "Our Ideas",
+				"class": "",
+				"items": [
+					{
+						"item":"Defeat the Terrorists.",
+						"sub_items":["We must make it our top national security priority to prevail in the war against radical Islamic extremism"]
+					},
+					{
+						"item":"Protect the Homeland.",
+						"sub_items":[" We must keep terrorists out of America, secure our borders, and stopping cyber-attacks."]
+					},
+					{
+						"item":"Tackle New Threats.",
+						"sub_items":["We must make sure our country is ready to tackle the threats of our time and beyond."]
+					},
+					{
+						"item":"Defend Freedom.",
+						"sub_items":["We must restore American influence, advance free enterprise, and expand the community of free nations."]
+					}
+				]
+			},
+			{ 
+				"type":"additional",
+				"items":[
+					{
+						"text": "Snapshot (PDF)",
+						"link": "/_assets/pdf/ABetterWay-NSTF-Snapshot.pdf"
+					}
+				]
 			}
 		]
 	},
