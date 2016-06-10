@@ -130,7 +130,7 @@
 						"link": "/_assets/pdf/ABetterWay-Poverty-BytheNumbers.pdf"
 					},
 					{
-						"text": "FAQ (PDF)",
+						"text": "Frequently Asked Questions (PDF)",
 						"link": "/_assets/pdf/ABetterWay-Poverty-FAQ.pdf"
 					}
 				]
@@ -196,6 +196,14 @@
 					{
 						"text": "Full Task Force Report (PDF)",
 						"link": "/_assets/pdf/ABetterWay-NSTF-PolicyPaper.pdf"
+					},
+					{
+						"text": "Fact Sheet (PDF)",
+						"link": "/_assets/pdf/ABetterWay-NSTF-FactSheet.pdf"
+					},
+					{
+						"text": "Frequently Asked Questions (PDF)",
+						"link": "/_assets/pdf/ABetterWay-NSTF-FAQ.pdf"
 					}
 				]
 			}
