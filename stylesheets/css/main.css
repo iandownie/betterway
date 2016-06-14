@@ -3201,6 +3201,10 @@ h1 {
   letter-spacing: 1px;
 }
 
+h3 {
+  font-size: 1em;
+}
+
 .h2 {
   position: relative;
   padding: calc(2em) 0;
@@ -3235,19 +3239,6 @@ h1 {
   transform: skew(-30deg) translate(calc(-50% - 30%), -50%);
   -webkit-transform: skew(-30deg) translate(calc(-50% - 30%), -50%);
   -ms-transform: skew(-30deg) translate(calc(-50% - 30%), -50%);
-  -webkit-filter: grayscale(100%) brightness(0.2);
-  -moz-filter: grayscale(100%) brightness(0.2);
-  -ms-filter: grayscale(100%) brightness(0.2);
-  -o-filter: grayscale(100%) brightness(0.2);
-  filter: grayscale(100%) brightness(0.2);
-  opacity: 0.2;
-  -moz-opacity: 0.2;
-  -ms-opacity: 0.2;
-  -webkit-opacity: 0.2;
-}
-
-h3 {
-  font-size: 1em;
 }
 
 p {
@@ -3718,10 +3709,16 @@ input[type=range]:focus::-ms-fill-upper {
   color: #787878;
 }
 .expander .h2:before {
-  opacity: 0.1;
-  -moz-opacity: 0.1;
-  -ms-opacity: 0.1;
-  -webkit-opacity: 0.1;
+  transform: skew(-30deg);
+  background-image: -moz-linear-gradient(74deg, #bcbec0 25%, transparent 25%), -moz-linear-gradient(106deg, #bcbec0 25%, transparent 25%), -moz-linear-gradient(-74deg, #bcbec0 25%, transparent 25%), -moz-linear-gradient(-106deg, #bcbec0 25%, transparent 25%), -moz-linear-gradient(-194deg, #bcbec0 25%, transparent 25%), -moz-linear-gradient(14deg, #bcbec0 25%, transparent 25%);
+  background-image: linear-gradient(-14deg, #bcbec0 25%, transparent 25%), linear-gradient(14deg, #bcbec0 25%, transparent 25%), linear-gradient(194deg, #bcbec0 25%, transparent 25%), linear-gradient(-194deg, #bcbec0 25%, transparent 25%), linear-gradient(-194deg, #bcbec0 25%, transparent 25%), linear-gradient(14deg, #bcbec0 25%, transparent 25%);
+  -moz-background-size: calc(12px*8) calc(12px*2);
+  background-size: calc(12px*8) calc(12px*2);
+  -webkit-background-size: calc(12px*8) calc(12px*2);
+  background-position: calc(12px*-4) -12px, calc(12px*4) 0px, 0px 12px, 0px 0px, 1px 0px, calc(12px*4 + 1px) 0px;
+  transform: skew(-30deg) translate(calc(-50% - 30%), -50%);
+  -webkit-transform: skew(-30deg) translate(calc(-50% - 30%), -50%);
+  -ms-transform: skew(-30deg) translate(calc(-50% - 30%), -50%);
 }
 .expander h2 {
   color: #293956;

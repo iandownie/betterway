@@ -42,7 +42,8 @@
 		}
 	}
 	.h2:before{
-		@include opacity(0.1);
+		@include logo( #{$logo}, #bcbec0);
+		@include transform(skew(-30deg) translate(calc(-50% - 30%), -50%));
 	}
 	h2{
 		color: $brand;
