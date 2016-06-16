@@ -332,14 +332,58 @@
       {
         "type": "expander",
         "header": "Our Principle",
-        "text": "There is no better way than the Constitution. In a confident America, government exists to serve the people, not the other way around.",
+        "text": "In a Confident America, the government upholds the Constitution and works for the people, not the other way around.",
         "background": "background color"
       },
       {
         "type": "central",
-        "text": "Coming June 16th.",
+        "text": "Just as the size of government has grown, so has its arrogance. Washington spends money it isn’t authorized to spend. It takes power it isn't given. It ignores laws it is required to execute. It doesn’t listen, and it certainly doesn’t care to learn. The Founders insisted on a separation of powers to protect our constitutional liberties. But over time, especially in recent decades, the executive branch has collected more power for itself, enabled by a judiciary that defers to the bureaucracy and a Congress that has yielded some of its most fundamental duties. James Madison warned that the Constitution is “a mere parchment barrier” unless each branch asserts its powers to keep the others in check. This concentration of power ultimately comes at the expense of the people, who rightly feel detached from—distrustful of—their government.",
         "header": "Our Challenge",
         "image": "Constitution.png"
+      },
+      {
+        "type": "expander",
+        "header": "Our Ideas",
+        "class": "",
+        "items": [
+          {
+            "item": "Make government more accountable.",
+            "sub_items": [
+              "Subject agencies and bureaucracies to more scrutiny from a Congress that writes clear laws and enforces clear lines of authority, a judiciary that expedites legal action against the executive branch, inspectors general that have more tools to root out fraud and abuse, and a public that knows what it has a right to know."
+            ]
+          },
+          {
+            "item": "Make government more representative.",
+            "sub_items": [
+              "Rewrite old laws and implement new ones so that regulations better reflect the will—and the input—of the people. Let’s make the bureaucrats jump through more hoops—and spend less money—for a change."
+            ]
+          },
+          {
+            "item": "Restore constitutional checks on spending.",
+            "sub_items": [
+              "Give Congress and the people the most say—and the final word—over who is spending their money, what it’s being spent on, where it’s being spent, when it’s being spent, and why it’s being spent."
+            ]
+          },
+          {
+            "item": "Make government more transparent.",
+            "sub_items": [
+              "Make the government catch up with the times by publishing more data about how it does the people’s business. Sunlight really is the best disinfectant."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "additional",
+        "items": [
+          {
+            "text": "Snapshot (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Constitution-Snapshot.pdf"
+          },
+          {
+            "text": "Full Task Force Report (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Constitution-PolicyPaper.pdf"
+          }
+        ]
       }
     ]
   },
