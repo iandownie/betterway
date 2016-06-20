@@ -384,8 +384,16 @@
             "link": "/_assets/pdf/ABetterWay-Constitution-PolicyPaper.pdf"
           },
           {
+            "text": "Fact Sheet (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Constitution-FactSheet.pdf"
+          },
+          {
             "text": "By The Numbers (PDF)",
             "link": "/_assets/pdf/ABetterWay-Constitution-BytheNumbers.pdf"
+          },
+          {
+            "text": "Frequently Asked Questions (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Constitution-FAQ.pdf"
           }
         ]
       }
