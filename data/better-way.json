@@ -416,14 +416,58 @@
       {
         "type": "expander",
         "header": "Our Principle",
-        "text": "In a Confident America, we can get the care we need, from the doctor we choose, at a cost we can afford.",
+        "text": "In a confident America, everyone has access to quality, affordable health care.",
         "background": "background color"
       },
-      {
+       {
         "type": "central",
-        "text": "Coming June 22nd.",
+        "text": "Obamacare is making things worse by the day. It drives up premiums and deductible costs for individuals, families, and businesses. It forces people off the plans they like. It fuels waste, fraud, and abuse. And it cannot be fixed. Its knot of regulations, taxes, and mandates cannot be untangled. Obamacare must be fully repealed so we can start over and take a new approach.",
         "header": "Our Challenge",
         "image": "Health.png"
+      },
+      {
+        "type": "expander",
+        "header": "Our Ideas",
+        "class": "",
+        "items": [
+          {
+            "item": "More choices and lower costs.",
+            "sub_items": [
+              "Our plan gives you more control and more choices so that you can pick the plan that meets your needs—not Washington’s mandates."
+            ]
+          },
+          {
+            "item": "Real protections and peace of mind.",
+            "sub_items": [
+              " Our plan makes sure that you never have to worry about being turned away or having your coverage taken away—regardless of age, income, medical conditions, or circumstances."
+            ]
+          },
+          {
+            "item": "Cutting-edge cures and treatments.",
+            "sub_items": [
+              "Our plan clears out the bureaucracy to accelerate the development of life-saving devices and therapies."
+            ]
+          },
+          {
+            "item": "A stronger Medicare.",
+            "sub_items": [
+              "Our plan protects Medicare for today’s seniors and preserves the program for future generations."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "additional",
+        "items": [
+          {
+            "text": "Snapshot (PDF)",
+            "link": "/_assets/pdf/ABetterWay-HealthCare-Snapshot.pdf"
+          },
+          {
+            "text": "Full Task Force Report (PDF)",
+            "link": "/_assets/pdf/ABetterWay-HealthCare-PolicyPaper.pdf"
+          }
+        ]
       }
     ]
   },
