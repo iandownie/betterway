@@ -501,9 +501,43 @@
       },
       {
         "type": "central",
-        "text": "Coming soon.",
+        "text": "We need a new tax code. It needs to be fair and simple for everyone. It should be so simple that mostAmericans can do their taxes on a form as simple as a postcard. Our tax code should be built for growth. It should help make the United States the best place in the world to hire and invest. And if we’re going to have a better tax code, we need a betterIRS, one that puts the taxpayers first. This blueprint offers a better way to dramatic reform—without increasing the deficit.It does so by promoting growth—of American jobs, wages, and ultimately the entire economy.",
         "header": "Our Challenge",
         "image": "TaxReform.png"
+      },
+      {
+        "type": "expander",
+        "header": "Our Ideas",
+        "class": "",
+        "items": [
+          {
+            "item": "Simplicity and fairness.",
+            "sub_items": [
+              "Our plan makes the tax code simpler, fairer, and flatter, so that it’s not only easier to do your taxes, but it’s also easier to have peace of mind at critical moments in life."
+            ]
+          },
+          {
+            "item": "Jobs and growth.",
+            "sub_items": [
+              "Our plan makes it easier to create jobs, raise wages, and expand opportunity for all Americans."
+            ]
+          },
+          {
+            "item": "A service first IRS.",
+            "sub_items": [
+              "Our plan matches a simpler, fairer tax code with a simpler, fairer IRS that puts taxpayers first."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "additional",
+        "items": [
+          {
+            "text": "Snapshot (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Tax-Snapshot.pdf"
+          }
+        ]
       }
     ]
   }

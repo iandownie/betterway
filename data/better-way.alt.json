@@ -1,312 +1,544 @@
 [
-	{
-		"name": "A Better Way",
-		"slug": "home_page",
-		"sections": [
-			{
-				"type": "hero_video",
-				"link": "",
-				"image": "hero-1.jpg",
-				"header": "Our Vision for a Confident America",
-				"video": "nuys9Eo_68c"
-			},
-			{
-				"type": "expander",
-				"header": "About a Better Way",
-				"text": "Our nation is on the wrong path. We can complain about it, but that won't change things. To get America back on track, we have to raise our gaze. We have to go bold. That's what A Better Way is about. It is a full slate of ideas to address some of the biggest challenges of our time. Developed with input from around the country, it looks past this president to what we can achieve in 2017 and beyond. It is our vision for a confident America, at home and abroad. It is a clear and compelling choice for our future."
-			},
-			{
-				"type": "grid",
-				"items": [
-					{
-						"header": "Poverty",
-						"image": "Poverty.png",
-						"text": "All of us should have the chance to make the most of our lives no matter where we start."
-					},
-					{
-						"header": "National Security",
-						"image": "NationalSecurity.png",
-						"text": "A confident America keeps its people safe, and keeps the peace in a dangerous world."
-					},
-					{
-						"header": "The Economy",
-						"image": "Innovation.png",
-						"text": "A Confident America is the best place in the world to live, work, start a business, and raise a family."
-					},
-					{
-						"header": "The Constitution",
-						"image": "Constitution.png",
-						"text": "In a confident America, government exists to serve the people, not the other way around."
-					},
-					{
-						"header": "Health Care",
-						"image": "Health.png",
-						"text": "In a Confident America, you can get the care you need, from the doctor you choose, at a cost you can afford."
-					},
-					{
-						"header": "Tax Reform",
-						"image": "TaxReform.png",
-						"text": "In a Confident America, the IRS and the tax code work for the people, not against us."
-					}
-				]
-			},
-			{
-				"type": "sign_up",
-				"header": "Signup For Updates",
-				"text": "Enter your email address below"
-			}
-		]
-	},
-	{
-		"name": "Poverty",
-		"slug": "page_slug1",
-		"sections": [
-			{
-				"type":"hero_video",
-				"link": "/",
-				"image": "hero-poverty.jpg",
-				"header": "Poverty",
-				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "social.jpg",
-				"twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
-				"video": "dIAJWEKbUXo"
-			},
-			{
-				"type":"expander",
-				"header": "Our Principle",
-				"text": "If the American Dream isn’t true for everyone, it isn’t true for anyone. All of us should have the chance to make the most of our lives no matter where we start.",
-				"background": "background color"
-			},
-			{
-				"type": "central",
-				"text": "Our country is all about striving, but too many of our people are stuck. Over the years, Washington has made many promises, created many programs, and spent many trillions to fight poverty. Yet today in America, if you are raised poor, you are just likely to stay poor as you were 50 years ago. The key word here is ‘stay.’ Our welfare system is rigged to replace work, not encourage work. Washington measures success by how many programs it creates, not by how many people it helps. The system traps families in a cycle of poverty, shuffling them from program to program instead of helping them break free altogether.",
-				"header": "Our Challenge",
-				"image": "Poverty.png"
-			},
-			{
-				"type":"expander",
-				"header": "Our Ideas",
-				"class": "",
-				"items": [
-					{
-						"item":"Reward work.",
-						"sub_items":["If you are capable, we will expect you to prepare for work."]
-					},
-					{
-						"item":"Tailor benefits to people’s needs.",
-						"sub_items":["We will match poverty-fighting programs with your needs so that it’s easier for you to get back on your feet."]
-					},
-					{
-						"item":"Improve skills and schools.",
-						"sub_items":["We will make sure that poor kids have more opportunities to succeed at every stage, from childhood through college."]
-					},
-					{
-						"item":"Plan and save for the future.",
-						"sub_items":["We will make it easier for you and your family to plan for the future and be retirement-ready."]
-					},
-					{
-						"item":"Demand results.",
-						"sub_items":["We will open up the system to accountability and collaboration, backing ideas that work on the front lines."]
-					}
-				]
-			},
-			{ 
-				"type":"additional",
-				"items":[
-					{
-						"text": "Snapshot (PDF)",
-						"link": "/_assets/pdf/ABetterWay-Poverty-Snapshot.pdf"
-					},
-					{
-						"text": "Full Task Force Report (PDF)",
-						"link": "/_assets/pdf/ABetterWay-Poverty-PolicyPaper.pdf"
-					},
-					{
-						"text": "Fact Sheet (PDF)",
-						"link": "/_assets/pdf/ABetterWay-Poverty-FactSheet.pdf"
-					},
-					{
-						"text": "By The Numbers (PDF)",
-						"link": "/_assets/pdf/ABetterWay-Poverty-FactSheet.pdf"
-					},
-					{
-						"text": "FAQ (PDF)",
-						"link": "/_assets/pdf/ABetterWay-Poverty-FactSheet.pdf"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "National Security",
-		"slug": "page_slug2",
-		"sections": [
-			{
-				"type":"hero_video",
-				"link": "/",
-				"image": "hero-national-security.jpg",
-				"header": "National Security",
-				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "social.jpg",
-				"twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
-				"video": "nuys9Eo_68c"
-			},
-			{
-				"type":"expander",
-				"header": "Our Principle",
-				"text": "A confident America keeps its people safe, and keeps the peace in a dangerous world.",
-				"background": "background color"
-			},
-			{
-				"type": "central",
-				"text": "Our nation’s foreign policy is failing at nearly every turn. From refusing to enforce its red line in Syria, to legitimizing Iran’s nuclear enrichment program, to its failed reset with Russia, to tolerating a more bellicose North Korean regime, to cavalierly dismissing the threat while the most dangerous terrorist organization in history emerged, the Obama administration has experimented with a new foreign policy concept—leading from behind—that can now be declared an unambiguous failure. Our enemies no longer fear us and our allies no longer trust us. Terrorists and rogue regimes are stepping up to fill the void, leading to a humanitarian catastrophe in Syria that is causing the worst refugee crisis since World War II.",
-				"header": "Our Challenge",
-				"image": "NationalSecurity.png"
-			},
-			{
-				"type":"expander",
-				"header": "Our Ideas",
-				"class": "",
-				"items": [
-					{
-						"item":"Defeat the Terrorists.",
-						"sub_items":["We must make it our top national security priority to prevail in the war against radical Islamic extremism"]
-					},
-					{
-						"item":"Protect the Homeland.",
-						"sub_items":[" We must keep terrorists out of America, secure our borders, and stopping cyber-attacks."]
-					},
-					{
-						"item":"Tackle New Threats.",
-						"sub_items":["We must make sure our country is ready to tackle the threats of our time and beyond."]
-					},
-					{
-						"item":"Defend Freedom.",
-						"sub_items":["We must restore American influence, advance free enterprise, and expand the community of free nations."]
-					}
-				]
-			},
-			{ 
-				"type":"additional",
-				"items":[
-					{
-						"text": "Snapshot (PDF)",
-						"link": "/_assets/pdf/ABetterWay-NSTF-Snapshot.pdf"
-					}
-				]
-			}
-		]
-	},
-	{
-		"name": "The Economy",
-		"slug": "page_slug3",
-		"sections": [
-			{
-				"type":"hero_video",
-				"link": "/",
-				"image": "hero-innovation.jpg",
-				"header": "The Economy",
-				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "social.jpg",
-				"twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
-				"video": "nuys9Eo_68c"
-			},
-			{
-				"type":"expander",
-				"header": "Our Principle",
-				"text": "A Confident America is the best place in the world to live, work, start a business, and raise a family.",
-				"background": "background color"
-			},
-			{
-				"type": "central",
-				"text": "Coming this month.",
-				"header": "Our Challenge",
-				"image": "Innovation.png"
-			}
-		]
-	},
-	{
-		"name": "The Constitution",
-		"slug": "page_slug4",
-		"sections": [
-			{
-				"type":"hero_video",
-				"link": "/",
-				"image": "hero-constitution.jpg",
-				"header": "The Constitution",
-				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "social.jpg",
-				"twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
-				"video": "nuys9Eo_68c"
-			},
-			{
-				"type":"expander",
-				"header": "Our Principle",
-				"text": "There is no better way than the Constitution. In a confident America, government exists to serve the people, not the other way around.",
-				"background": "background color"
-			},
-			{
-				"type": "central",
-				"text": "Coming this month.",
-				"header": "Our Challenge",
-				"image": "Constitution.png"
-			}
-		]
-	},
-	{
-		"name": "Health Care",
-		"slug": "page_slug5",
-		"sections": [
-			{
-				"type":"hero_video",
-				"link": "/",
-				"image": "hero-healthcare.jpg",
-				"header": "Health Care",
-				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "social.jpg",
-				"twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
-				"video": "nuys9Eo_68c"
-			},
-			{
-				"type":"expander",
-				"header": "Our Principle",
-				"text": "In a Confident America, we can get the care we need, from the doctor we choose, at a cost we can afford.",
-				"background": "background color"
-			},
-			{
-				"type": "central",
-				"text": "Coming this month.",
-				"header": "Our Challenge",
-				"image": "Health.png"
-			}
-		]
-	},
-	{
-		"name": "Tax Reform",
-		"slug": "page_slug6",
-		"sections": [
-			{
-				"type":"hero_video",
-				"link": "/",
-				"image": "hero-taxreform.jpg",
-				"header": "Tax Reform",
-				"fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
-				"fb_image": "social.jpg",
-				"twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
-				"video": "nuys9Eo_68c"
-			},
-			{
-				"type":"expander",
-				"header": "Our Principle",
-				"text": "We send too much money to Washington and too many jobs overseas. In a Confident America, the IRS and the tax code work for the people, not against us.",
-				"background": "background color"
-			},
-			{
-				"type": "central",
-				"text": "Coming this month.",
-				"header": "Our Challenge",
-				"image": "TaxReform.png"
-			}
-		]
-	}
+  {
+    "name": "A Better Way",
+    "slug": "home_page",
+    "sections": [
+      {
+        "type": "hero_video",
+        "link": "",
+        "image": "hero-1.jpg",
+        "header": "Our Vision for a Confident America",
+        "video": "nuys9Eo_68c"
+      },
+      {
+        "type": "expander",
+        "header": "About a Better Way",
+        "text": "Our nation is on the wrong path. We can complain about it, but that won't change things. To get America back on track, we have to raise our gaze. We have to go bold. That's what A Better Way is about. It is a full slate of ideas to address some of the biggest challenges of our time. Developed with input from around the country, it looks past this president to what we can achieve in 2017 and beyond. It is our vision for a confident America, at home and abroad. It is a clear and compelling choice for our future."
+      },
+      {
+        "type": "grid",
+        "items": [
+          {
+            "header": "Poverty",
+            "image": "Poverty.png",
+            "text": "All of us should have the chance to make the most of our lives no matter where we start."
+          },
+          {
+            "header": "National Security",
+            "image": "NationalSecurity.png",
+            "text": "A confident America keeps its people safe, and keeps the peace in a dangerous world."
+          },
+          {
+            "header": "The Economy",
+            "image": "Innovation.png",
+            "text": "A Confident America is the best place in the world to live, work, start a business, and raise a family."
+          },
+          {
+            "header": "The Constitution",
+            "image": "Constitution.png",
+            "text": "In a confident America, government exists to serve the people, not the other way around."
+          },
+          {
+            "header": "Health Care",
+            "image": "Health.png",
+            "text": "In a Confident America, you can get the care you need, from the doctor you choose, at a cost you can afford."
+          },
+          {
+            "header": "Tax Reform",
+            "image": "TaxReform.png",
+            "text": "In a Confident America, the IRS and the tax code work for the people, not against us."
+          }
+        ]
+      },
+      {
+        "type": "sign_up",
+        "header": "Signup For Updates",
+        "text": "Enter your email address below"
+      }
+    ]
+  },
+  {
+    "name": "Poverty",
+    "slug": "page_slug1",
+    "sections": [
+      {
+        "type": "hero_video",
+        "link": "/",
+        "image": "hero-poverty.jpg",
+        "header": "Poverty",
+        "fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+        "fb_image": "social.jpg",
+        "twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
+        "video": "dIAJWEKbUXo"
+      },
+      {
+        "type": "expander",
+        "header": "Our Principle",
+        "text": "If the American Dream isn’t true for everyone, it isn’t true for anyone. All of us should have the chance to make the most of our lives no matter where we start.",
+        "background": "background color"
+      },
+      {
+        "type": "central",
+        "text": "Our country is all about striving, but too many of our people are stuck. Over the years, Washington has made many promises, created many programs, and spent many trillions to fight poverty. Yet today in America, if you are raised poor, you are just likely to stay poor as you were 50 years ago. The key word here is ‘stay.’ Our welfare system is rigged to replace work, not encourage work. Washington measures success by how many programs it creates, not by how many people it helps. The system traps families in a cycle of poverty, shuffling them from program to program instead of helping them break free altogether.",
+        "header": "Our Challenge",
+        "image": "Poverty.png"
+      },
+      {
+        "type": "expander",
+        "header": "Our Ideas",
+        "class": "",
+        "items": [
+          {
+            "item": "Reward work.",
+            "sub_items": [
+              "If you are capable, we will expect you to work or to prepare for work."
+            ]
+          },
+          {
+            "item": "Tailor benefits to people’s needs.",
+            "sub_items": [
+              "We will match poverty-fighting programs with your needs so that it’s easier for you to get back on your feet."
+            ]
+          },
+          {
+            "item": "Improve skills and schools.",
+            "sub_items": [
+              "We will make sure that poor kids have more opportunities to succeed at every stage, from childhood through college."
+            ]
+          },
+          {
+            "item": "Plan and save for the future.",
+            "sub_items": [
+              "We will make it easier for you and your family to plan for the future and be retirement-ready."
+            ]
+          },
+          {
+            "item": "Demand results.",
+            "sub_items": [
+              "We will open up the system to accountability and collaboration, backing ideas that work on the front lines."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "additional",
+        "items": [
+          {
+            "text": "Snapshot (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Poverty-Snapshot.pdf"
+          },
+          {
+            "text": "Full Task Force Report (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Poverty-PolicyPaper.pdf"
+          },
+          {
+            "text": "Fact Sheet (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Poverty-FactSheet.pdf"
+          },
+          {
+            "text": "By The Numbers (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Poverty-BytheNumbers.pdf"
+          },
+          {
+            "text": "Frequently Asked Questions (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Poverty-FAQ.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "National Security",
+    "slug": "page_slug2",
+    "sections": [
+      {
+        "type": "hero_video",
+        "link": "/",
+        "image": "hero-national-security.jpg",
+        "header": "National Security",
+        "fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+        "fb_image": "social.jpg",
+        "twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
+        "video": "cvHCixEcMZ0"
+      },
+      {
+        "type": "expander",
+        "header": "Our Principle",
+        "text": "A confident America keeps its people safe, and keeps the peace in a dangerous world.",
+        "background": "background color"
+      },
+      {
+        "type": "central",
+        "text": "Our nation’s foreign policy is failing at nearly every turn. From refusing to enforce its red line in Syria, to legitimizing Iran’s nuclear enrichment program, to its failed reset with Russia, to tolerating a more bellicose North Korean regime, to cavalierly dismissing the threat while the most dangerous terrorist organization in history emerged, the Obama administration has experimented with a new foreign policy concept—leading from behind—that can now be declared an unambiguous failure. Our enemies no longer fear us and our allies no longer trust us. Terrorists and rogue regimes are stepping up to fill the void, leading to a humanitarian catastrophe in Syria that is causing the worst refugee crisis since World War II.",
+        "header": "Our Challenge",
+        "image": "NationalSecurity.png"
+      },
+      {
+        "type": "expander",
+        "header": "Our Ideas",
+        "class": "",
+        "items": [
+          {
+            "item": "Defeat the Terrorists.",
+            "sub_items": [
+              "We must make it our top national security priority to prevail in the war against radical Islamic extremism."
+            ]
+          },
+          {
+            "item": "Protect the Homeland.",
+            "sub_items": [
+              " We must keep terrorists out of America, secure our borders, and stop cyber-attacks."
+            ]
+          },
+          {
+            "item": "Tackle New Threats.",
+            "sub_items": [
+              "We must make sure our country is ready to tackle the threats of our time and beyond."
+            ]
+          },
+          {
+            "item": "Defend Freedom.",
+            "sub_items": [
+              "We must restore American influence, advance free enterprise, and expand the community of free nations."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "additional",
+        "items": [
+          {
+            "text": "Snapshot (PDF)",
+            "link": "/_assets/pdf/ABetterWay-NSTF-Snapshot.pdf"
+          },
+          {
+            "text": "Full Task Force Report (PDF)",
+            "link": "/_assets/pdf/ABetterWay-NSTF-PolicyPaper.pdf"
+          },
+          {
+            "text": "Fact Sheet (PDF)",
+            "link": "/_assets/pdf/ABetterWay-NSTF-FactSheet.pdf"
+          },
+          {
+            "text": "Frequently Asked Questions (PDF)",
+            "link": "/_assets/pdf/ABetterWay-NSTF-FAQ.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Economy",
+    "slug": "page_slug3",
+    "sections": [
+      {
+        "type": "hero_video",
+        "link": "/",
+        "image": "hero-innovation.jpg",
+        "header": "The Economy",
+        "fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+        "fb_image": "social.jpg",
+        "twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
+        "video": "yR3gWdSULqo"
+      },
+      {
+        "type": "expander",
+        "header": "Our Principle",
+        "text": "A confident America is the best place in the world to live, work, build things, start a business, and raise a family.",
+        "background": "background color"
+      },
+      {
+        "type": "central",
+        "text": "Regulations are important. They help protect our health, safety, and well-being, and provide firm rules for us to live by. But taken beyondtheir initial purpose—and to an extreme—regulations can stifle innovation and infringe on liberty. The current system is costly and closed to innovation. In 2015, regulations cost us $1.89 trillion in lost productivity and growth. Putanother way, if our regulatory system were a country, it would have the world’s 9th largest economy, behind India. Indeed, red tape is an empire in its own right. There are no limits to the amount of regulatory costs Washington can impose each year. Few old regulations are taken off the books. And where we see new sources of innovation—from energy to the Internet itself—regulators see new chances for control. Even Congress is complicit, having delegated broad authority to unelected bureaucrats. Regulators can regulate first and never have to answer questions later, while you have little recourse or say in the process. All this adds up to a system that favors established interests—big government, big labor, and big business—over hardworking Americans and consumer.",
+        "header": "Our Challenge",
+        "image": "Innovation.png"
+      },
+      {
+        "type": "expander",
+        "header": "Our Ideas",
+        "class": "",
+        "items": [
+          {
+            "item": "Regulate smarter.",
+            "sub_items": [
+              "We need to take a smart approach that cuts down on needless regulations while making the rules we do need more efficient and effective, particularly for our small businesses that shoulder a disproportionate share of the federal regulatory burden."
+            ]
+          },
+          {
+            "item": "Deliver affordable and reliable energy.",
+            "sub_items": [
+              "We need to connect our energy boom to consumers and companies, responsibly produce more of our own resources, and end the needless delays that hold up jobs and projects indefinitely."
+            ]
+          },
+          {
+            "item": "End bailouts and promote financial independence.",
+            "sub_items": [
+              "We need to end cronyism, reward people who work hard and do the right thing, and put an end to Wall Street bailouts once and for all."
+            ]
+          },
+          {
+            "item": "Put students and workers first.",
+            "sub_items": [
+              "We should make it easier for Americans to excel in schools and workplaces, and rip up the red tape that gets in their way."
+            ]
+          },
+          {
+            "item": "Preserve Internet innovation.",
+            "sub_items": [
+              "We need to establish clear and consumer-friendly rules that prevent the FCC from making up regulations as it goes along and make sure Internet users will continue to be the decision makers for the content they want."
+            ]
+          },
+          {
+            "item": "Crack down on lawsuit abuse.",
+            "sub_items": [
+              "We need to reform the system so that it no longer tips the scales in favor of trial lawyers and better protects consumers and small businesses."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "additional",
+        "items": [
+          {
+            "text": "Snapshot (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Economy-Snapshot.pdf"
+          },
+          {
+            "text": "Full Task Force Report (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Economy-PolicyPaper.pdf"
+          },
+          {
+            "text": "By The Numbers (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Economy-BytheNumbers.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Constitution",
+    "slug": "page_slug4",
+    "sections": [
+      {
+        "type": "hero_video",
+        "link": "/",
+        "image": "hero-constitution.jpg",
+        "header": "The Constitution",
+        "fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+        "fb_image": "social.jpg",
+        "twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
+        "video": "SS8D9nHP2Kg"
+      },
+      {
+        "type": "expander",
+        "header": "Our Principle",
+        "text": "In a Confident America, the government upholds the Constitution and works for the people, not the other way around.",
+        "background": "background color"
+      },
+      {
+        "type": "central",
+        "text": "Just as the size of government has grown, so has its arrogance. Washington spends money it isn’t authorized to spend. It takes power it isn't given. It ignores laws it is required to execute. It doesn’t listen, and it certainly doesn’t care to learn. The Founders insisted on a separation of powers to protect our constitutional liberties. But over time, especially in recent decades, the executive branch has collected more power for itself, enabled by a judiciary that defers to the bureaucracy and a Congress that has yielded some of its most fundamental duties. James Madison warned that the Constitution is “a mere parchment barrier” unless each branch asserts its powers to keep the others in check. This concentration of power ultimately comes at the expense of the people, who rightly feel detached from—distrustful of—their government.",
+        "header": "Our Challenge",
+        "image": "Constitution.png"
+      },
+      {
+        "type": "expander",
+        "header": "Our Ideas",
+        "class": "",
+        "items": [
+          {
+            "item": "Make government more accountable.",
+            "sub_items": [
+              "Subject agencies and bureaucracies to more scrutiny from a Congress that writes clear laws and enforces clear lines of authority, a judiciary that expedites legal action against the executive branch, inspectors general that have more tools to root out fraud and abuse, and a public that knows what it has a right to know."
+            ]
+          },
+          {
+            "item": "Make government more representative.",
+            "sub_items": [
+              "Rewrite old laws and implement new ones so that regulations better reflect the will—and the input—of the people. Let’s make the bureaucrats jump through more hoops—and spend less money—for a change."
+            ]
+          },
+          {
+            "item": "Restore constitutional checks on spending.",
+            "sub_items": [
+              "Give Congress and the people the most say—and the final word—over who is spending their money, what it’s being spent on, where it’s being spent, when it’s being spent, and why it’s being spent."
+            ]
+          },
+          {
+            "item": "Make government more transparent.",
+            "sub_items": [
+              "Make the government catch up with the times by publishing more data about how it does the people’s business. Sunlight really is the best disinfectant."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "additional",
+        "items": [
+          {
+            "text": "Snapshot (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Constitution-Snapshot.pdf"
+          },
+          {
+            "text": "Full Task Force Report (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Constitution-PolicyPaper.pdf"
+          },
+          {
+            "text": "Fact Sheet (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Constitution-FactSheet.pdf"
+          },
+          {
+            "text": "By The Numbers (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Constitution-BytheNumbers.pdf"
+          },
+          {
+            "text": "Frequently Asked Questions (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Constitution-FAQ.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Health Care",
+    "slug": "page_slug5",
+    "sections": [
+      {
+        "type": "hero_video",
+        "link": "/",
+        "image": "hero-healthcare.jpg",
+        "header": "Health Care",
+        "fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+        "fb_image": "social.jpg",
+        "twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
+        "video": "NDVmF7i6LdE"
+      },
+      {
+        "type": "expander",
+        "header": "Our Principle",
+        "text": "In a confident America, everyone has access to quality, affordable health care.",
+        "background": "background color"
+      },
+       {
+        "type": "central",
+        "text": "Obamacare is making things worse by the day. It drives up premiums and deductible costs for individuals, families, and businesses. It forces people off the plans they like. It fuels waste, fraud, and abuse. And it cannot be fixed. Its knot of regulations, taxes, and mandates cannot be untangled. Obamacare must be fully repealed so we can start over and take a new approach.",
+        "header": "Our Challenge",
+        "image": "Health.png"
+      },
+      {
+        "type": "expander",
+        "header": "Our Ideas",
+        "class": "",
+        "items": [
+          {
+            "item": "More choices and lower costs.",
+            "sub_items": [
+              "Our plan gives you more control and more choices so that you can pick the plan that meets your needs—not Washington’s mandates."
+            ]
+          },
+          {
+            "item": "Real protections and peace of mind.",
+            "sub_items": [
+              " Our plan makes sure that you never have to worry about being turned away or having your coverage taken away—regardless of age, income, medical conditions, or circumstances."
+            ]
+          },
+          {
+            "item": "Cutting-edge cures and treatments.",
+            "sub_items": [
+              "Our plan clears out the bureaucracy to accelerate the development of life-saving devices and therapies."
+            ]
+          },
+          {
+            "item": "A stronger Medicare.",
+            "sub_items": [
+              "Our plan protects Medicare for today’s seniors and preserves the program for future generations."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "additional",
+        "items": [
+          {
+            "text": "Snapshot (PDF)",
+            "link": "/_assets/pdf/ABetterWay-HealthCare-Snapshot.pdf"
+          },
+          {
+            "text": "Full Task Force Report (PDF)",
+            "link": "/_assets/pdf/ABetterWay-HealthCare-PolicyPaper.pdf"
+          },
+          {
+            "text": "Fact Sheet (PDF)",
+            "link": "/_assets/pdf/ABetterWay-HealthCare-FactSheet.pdf"
+          },
+          {
+            "text": "Frequently Asked Questions (PDF)",
+            "link": "/_assets/pdf/ABetterWay-HealthCare-FAQ.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tax Reform",
+    "slug": "page_slug6",
+    "sections": [
+      {
+        "type": "hero_video",
+        "link": "/",
+        "image": "hero-taxreform.jpg",
+        "header": "Tax Reform",
+        "fb": "Let’s face it: people know what Republicans are against. Here's a plan to show what we're for. → #BetterWay",
+        "fb_image": "social.jpg",
+        "twt": "Face it: people know what Repubs are against. This plan shows what we're for. #BetterWay",
+        "video": "nuys9Eo_68c"
+      },
+      {
+        "type": "expander",
+        "header": "Our Vision",
+        "text": "We need a new tax code. It needs to be fair and simple for everyone. It should be so simple that mostAmericans can do their taxes on a form as simple as a postcard. Our tax code should be built for growth. It should help make the United States the best place in the world to hire and invest. And if we’re going to have a better tax code, we need a betterIRS, one that puts the taxpayers first. This blueprint offers a better way to dramatic reform—without increasing the deficit.It does so by promoting growth—of American jobs, wages, and ultimately the entire economy.",
+        "background": "background color"
+      },
+       {
+        "type": "central",
+        "text": " Our plan makes the tax code simpler, fairer, and flatter, so that it’s not only easier to do your taxes, but it’s also easier to have peace of mind at critical moments in life. ",
+        "header": "Our Ideas",
+        "image": "TaxReform.png"
+      },
+      {
+        "type": "expander",
+        "header": "Our Ideas",
+        "class": "",
+        "items": [
+          {
+            "item": "Simplicity and fairness.",
+            "sub_items": [
+              "Our plan makes the tax code simpler, fairer, and flatter, so that it’s not only easier to do your taxes, but it’s also easier to have peace of mind at critical moments in life."
+            ]
+          },
+          {
+            "item": "Jobs and growth.",
+            "sub_items": [
+              "Our plan makes it easier to create jobs, raise wages, and expand opportunity for all Americans."
+            ]
+          },
+          {
+            "item": "A service first IRS.",
+            "sub_items": [
+              "Our plan matches a simpler, fairer tax code with a simpler, fairer IRS that puts taxpayers first."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "additional",
+        "items": [
+          {
+            "text": "Snapshot (PDF)",
+            "link": "/_assets/pdf/ABetterWay-Tax-Snapshot.pdf"
+          }
+        ]
+      }
+    ]
+  }
 ]
