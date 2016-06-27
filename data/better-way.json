@@ -59,7 +59,7 @@
   },
   {
     "name": "Poverty",
-    "slug": "page_slug1",
+    "slug": "poverty",
     "sections": [
       {
         "type": "hero_video",
@@ -149,7 +149,7 @@
   },
   {
     "name": "National Security",
-    "slug": "page_slug2",
+    "slug": "national-security",
     "sections": [
       {
         "type": "hero_video",
@@ -229,7 +229,7 @@
   },
   {
     "name": "The Economy",
-    "slug": "page_slug3",
+    "slug": "economy",
     "sections": [
       {
         "type": "hero_video",
@@ -317,7 +317,7 @@
   },
   {
     "name": "The Constitution",
-    "slug": "page_slug4",
+    "slug": "constitution",
     "sections": [
       {
         "type": "hero_video",
@@ -401,7 +401,7 @@
   },
   {
     "name": "Health Care",
-    "slug": "page_slug5",
+    "slug": "health-care",
     "sections": [
       {
         "type": "hero_video",
@@ -485,7 +485,7 @@
   },
   {
     "name": "Tax Reform",
-    "slug": "page_slug6",
+    "slug": "tax-reform",
     "sections": [
       {
         "type": "hero_video",
