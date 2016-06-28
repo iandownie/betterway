@@ -312,12 +312,20 @@ function loadHeroVideo(section, sectionData, pageIndex){
   var overlay='rgba(220,180,180,0.5)';
   var iframeSrc='https://www.youtube.com/embed/'+sectionData.video+'?&autoplay=1&rel=0&showinfo=0&modestbranding=1&controls=0&autohide=1&color=white"&origin=http://'+window.location.hostname;
   var background='background-image: -moz-linear-gradient(-45deg, '+overlay+' 0%, '+overlay+' 100%), url(/_assets/images/video/'+sectionData.image+');background-image: -webkit-linear-gradient(-45deg, '+overlay+' 0%, '+overlay+' 100%), url(/_assets/images/video/'+sectionData.image+'); background-image: linear-gradient(135deg, '+overlay+' 0%, '+overlay+' 100%), url(/_assets/images/video/'+sectionData.image+'); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#bcbec0", endColorstr="#bcbec0",GradientType=1 ), url(/_assets/images/video/'+sectionData.image+'); background-image:linear-gradient(135deg, '+overlay+' 0%, '+overlay+' 100%), url(/_assets/images/video/'+sectionData.image+');';
+  var ieBackground='background-image: url(/_assets/images/video/'+sectionData.image+');';
   setTimeout(function(){
     $('.page-'+pageIndex+' section.'+sectionData.type).load('html_imports/'+sectionData.type+'.html', function(){
       setTimeout(function(){
         var thisSection= $('.page-'+pageIndex+' section.'+sectionData.type).addClass('clearfix');
         thisSection.attr('id', 'video-hero');
-        thisSection.find('.hero-background').attr('style', background);
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf("MSIE ");
+        if (msie > 0 && msie < 10) // If Internet Explorer 9 or below
+        {
+          thisSection.find('.hero-background').attr('style', background);
+        }else  {// If another browser
+          thisSection.find('.hero-background').attr('style', background);
+        }
         var content= thisSection.children('.content-block');
         content.children('.video-button').attr('data-video',iframeSrc);
         content.children('h1').text(sectionData.header);

@@ -16,17 +16,16 @@
 	}
 	ul{
 		margin: 0;
-		@include justify(center);
-		flex-wrap: wrap;
 		li{
 			list-style: none;
-			width: 50%;
+			@include square(50%, 3em);
+			@include center(horizontal);
 			margin: calc(#{$vertical-size}/4);
 		}
 	}
 	.button{
 		margin: 0 2em;
-		left: initial;
+		left: auto;
 		float: right;
 		@include transform(translateX(0));
 		&:before{

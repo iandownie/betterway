@@ -96,7 +96,7 @@
 				}
 				&.button{
 					@include transform(none);
-					left:initial;
+					left:auto;
 					padding: 1.5em 0;
 				}
 			}

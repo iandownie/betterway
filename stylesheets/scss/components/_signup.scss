@@ -28,7 +28,7 @@
 			}
 		}
 		.button{
-			@include position(absolute, 0, initial, null, -1px);
+			@include position(absolute, 0, auto, null, -1px);
 			z-index: 1;
 			min-width: 10em;
 			@include transform(none);
