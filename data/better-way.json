@@ -1,7 +1,7 @@
 [
   {
     "name": "A Better Way",
-    "slug": "home_page",
+    "slug": "home-page",
     "sections": [
       {
         "type": "hero_video",
@@ -21,32 +21,38 @@
           {
             "header": "Poverty",
             "image": "Poverty.png",
-            "text": "All of us should have the chance to make the most of our lives no matter where we start."
+            "text": "All of us should have the chance to make the most of our lives no matter where we start.",
+            "parent": "poverty"
           },
           {
             "header": "National Security",
             "image": "NationalSecurity.png",
-            "text": "A confident America keeps its people safe, and keeps the peace in a dangerous world."
+            "text": "A confident America keeps its people safe, and keeps the peace in a dangerous world.",
+            "parent": "national-security"
           },
           {
             "header": "The Economy",
             "image": "Innovation.png",
-            "text": "A Confident America is the best place in the world to live, work, start a business, and raise a family."
+            "text": "A Confident America is the best place in the world to live, work, start a business, and raise a family.",
+            "parent": "economy"
           },
           {
             "header": "The Constitution",
             "image": "Constitution.png",
-            "text": "In a confident America, government exists to serve the people, not the other way around."
+            "text": "In a confident America, government exists to serve the people, not the other way around.",
+            "parent": "constitution"
           },
           {
             "header": "Health Care",
             "image": "Health.png",
-            "text": "In a Confident America, you can get the care you need, from the doctor you choose, at a cost you can afford."
+            "text": "In a Confident America, you can get the care you need, from the doctor you choose, at a cost you can afford.",
+            "parent": "health-care"
           },
           {
             "header": "Tax Reform",
             "image": "TaxReform.png",
-            "text": "In a Confident America, the IRS and the tax code work for the people, not against us."
+            "text": "In a Confident America, the IRS and the tax code work for the people, not against us.",
+            "parent": "tax-reform"
           }
         ]
       },

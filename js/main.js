@@ -2,6 +2,8 @@ var siteData={};
 var videoActive=false;
 var sectionStatuses=0;
 var sectionCount=0;
+var slugName = 'page';
+var dragendOffset = 2;
 d3.json("/data/better-way.json", function(error, data) {//Loads site data
   if(error!==null){
     console.log(error);
@@ -11,6 +13,8 @@ d3.json("/data/better-way.json", function(error, data) {//Loads site data
 });
 
 function init(){//Initiates the page
+
+  // Construct the frame content from data
   setTimeout(function(){
     buildPages(siteData);
     siteData.forEach(function(e){
@@ -129,7 +133,7 @@ function pageSwiper(){ //initiates page swipe functionality.
   lastChild.prependTo(container);
   $(".container").dragend({// Breaks the page into swipable side pages
     pageContainer: ".container",
-    jumpToPage: 2,
+    jumpToPage: getInitialPage(),
     onSwipeEnd: function() {
       var first = this.pages[0],
           last = this.pages[this.pages.length - 1];
@@ -137,7 +141,7 @@ function pageSwiper(){ //initiates page swipe functionality.
         this.jumpToPage(this.pages.length - 1 );
       }
       if (last === this.activeElement) {
-        this.jumpToPage(2);
+        this.jumpToPage(dragendOffset);
       }
       $('.page').eq(this.page).css('height', 'auto').parent().css('max-height', $('.page').eq(this.page).height());// Adjusts the page height to match the new slide.
     },
@@ -151,7 +155,11 @@ function pageSwiper(){ //initiates page swipe functionality.
 
 function menuFunctionality(){ //Menu click functionality
   $(".menu-element h3").click(function(event) {
-    var page = $(event.target).data("page")+2;
+
+    var slug = $(event.target).data("slug");
+    updateAddress(slug);
+
+    var page = $(event.target).data("page") + dragendOffset;
     $(".container").dragend({
       scrollToPage: page,
       duration: 750,
@@ -161,8 +169,9 @@ function menuFunctionality(){ //Menu click functionality
     }, 1000);
   });
   $("header .mark, header h1").click(function(event) {
+    updateAddress('home-page');
     $(".container").dragend({
-      scrollToPage: 2,
+      scrollToPage: dragendOffset,
       duration: 750,
     });
   });
@@ -170,7 +179,12 @@ function menuFunctionality(){ //Menu click functionality
 
 function gridFunctionality(){ //Grid click functionality
   $(".grid-element .overlay").click(function(event) {
-    var page = $(event.target).parents(".grid-element").index()+3;
+    var slug = $(event.target).parents(".grid-element").attr('data-slug');
+    updateAddress(slug);
+
+    // @todo: Change this to look up the position of the parent page
+    var page = $(event.target).parents(".grid-element").index() + dragendOffset + 1;
+
     $(".container").dragend({
       scrollToPage: page,
       duration: 750,
@@ -178,15 +192,26 @@ function gridFunctionality(){ //Grid click functionality
   });
 }
 
-function pagerFunctionality(){ //next/previous button functionality
+/**
+ * Next/previous pager functionality
+ */
+function pagerFunctionality() {
+
   $(".pager").click(function(event) {
-    var page = $(event.target).parents(".page").index();
-    if($(this).hasClass('next')){
-      page +=2;
+
+    var target = $(event.target).attr('data-target');
+    var targetPosition = getPosition(siteData[target].slug);
+    updateAddress(siteData[target].slug);
+
+    // If on final "page", use home-page bookend instead of rewinding
+    if (siteData[target].slug === 'home-page'
+      && $(this).hasClass('next')) {
+      targetPosition = siteData.length + dragendOffset;
     }
-    $(".container").dragend({
-      scrollToPage: page
-    });
+
+    // Scroll to the specified position.
+    $(".container").dragend({ scrollToPage: targetPosition });
+
   });
 }
 
@@ -275,10 +300,9 @@ function menuImports(data){ // Insert page links into menu
   var container = "<li class='menu-element'>";
   var html = 'menu-element.html';
   data.forEach(function(e, i){
-    if('home_page'===e.slug){
-    }else{
+    if('home-page' !== e.slug){
       $('section.menu ul').append($(container).load('/html_imports/'+html,function(){
-        $(this).children('h3').attr('data-page', i).text(e.name);
+        $(this).children('h3').data('page', i).data('slug', e.slug).text(e.name);
       }));
     }
   });
@@ -367,8 +391,16 @@ function loadExpander(section, sectionData, pageIndex){ // import and formats ex
 }
 
 function loadGrid(section, sectionData){ // import and formats grid type content sections and grid items
+
   sectionData.items.forEach(function(item, index){
-    section.append($("<div class='grid-element'>").addClass('element-'+index));
+
+    var $elem = $("<div class='grid-element'>");
+    $elem.attr('data-slug', item.parent);
+
+    // @todo: Change this from element-{index} to use the 'parent' slug and lookup the position
+    $elem.addClass('element-'+index);
+
+    section.append($elem);
     setTimeout(function(){
       $('.element-'+index).load('html_imports/grid-element.html', function(){
         $(this).children('img').attr('src', '_assets/images/icons/BetterWay_'+item.image);
@@ -420,57 +452,45 @@ function loadCentral(section, sectionData, pageIndex){// Imports and formats "ad
   }, 100);
 }
 
-function loadPagers(pageIndex){// imports previous/next buttons on interior pages
-  var pager = {next:{name:''}, previous:{name:''}};
-  switch (true){
-    case (1===pageIndex):
-      pager.next.name=siteData[pageIndex+1].name;
-      pager.previous.name=siteData[pageIndex-1].name;
-      break;
-    case (siteData.length-1===pageIndex):
-      pager.next.name=siteData[0].name;
-      pager.previous.name=siteData[pageIndex-1].name;
-      break;
-    default:
-      pager.next.name=siteData[pageIndex+1].name;
-      pager.previous.name=siteData[pageIndex-1].name;
-      break;
-  }
- $('.container .page-'+pageIndex+' .expander').eq(0).append($("<span class='pagers justify space-between'>").load('html_imports/pagers.html', function(){
-    $(this).find('.previous .button').text(pager.previous.name);
-    $(this).find('.next .button').text(pager.next.name);
-  }));
-}
+/**
+ * Create previous/next pagination buttons.
+ * @param  number pageIndex
+ */
+function loadPagers(pageIndex) {
 
-// function QueryString() {
-//   // Grabs Params
-//   var query_string = {};
-//   var query = window.location.search.substring(1);
-//   var vars = query.split("&");
-//   for (var i=0;i<vars.length;i++) {
-//     var pair = vars[i].split("=");
-//         // If first entry with this name
-//     if (typeof query_string[pair[0]] === "undefined") {
-//       query_string[pair[0]] = decodeURIComponent(pair[1]);
-//         // If second entry with this name
-//     } else if (typeof query_string[pair[0]] === "string") {
-//       var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
-//       query_string[pair[0]] = arr;
-//         // If third or later entry with this name
-//     } else {
-//       query_string[pair[0]].push(decodeURIComponent(pair[1]));
-//     }
-//   } 
-//   return query_string;//Grabs Params from URL
-// }
+  var indexNext = pageIndex + 1;
+  var indexPrev = pageIndex - 1;
+
+  // On final "page", 'next' should be homescreen "page" (zero-index):
+  if (indexNext === siteData.length) {
+    indexNext = 0;
+  }
+
+  // Set text and slug-data on prev/next buttons.
+  $('.container .page-' + pageIndex + ' .expander')
+    .eq(0)
+    .append($("<span class='pagers justify space-between'>")
+    .load('html_imports/pagers.html', function() {
+      // 'Previous' button
+      $prev = $(this).find('.previous .button');
+      $prev.text(siteData[indexPrev].name);
+      $prev.attr('data-target', indexPrev);
+      // 'Next' button
+      $next = $(this).find('.next .button');
+      $next.text(siteData[indexNext].name);
+      $next.attr('data-target', indexNext);
+    })
+  );
+}
 
 function buildPages(pages){
   staticImports();
   pages.forEach(function(e, i){
-    var container = $('<div class="page page-'+i+'">');
-    $('.container').append(container);
+    var $page = $('<div class="page page-'+i+'">');
+    $page.data('slug', e.slug);
+    $('.container').append($page);
     e.sections.forEach(function(element, index){
-      container.append($('<section class="section clearfix '+element.type+' section-'+index+'">'));
+      $page.append($('<section class="section clearfix '+element.type+' section-'+index+'">'));
       loadContent($('.page-'+i+' section.'+element.type+'.section-'+index), element, i);
       if(i>0 && index+1===e.sections.length){
         loadPagers(i);
@@ -505,3 +525,72 @@ function loadContent(section, sectionData, pageIndex){ // Builds the page depend
   innerElements(section, sectionData, pageIndex);
 }
 
+/**
+ * Get the position value of a frame by it's slug value.
+ * @param string slug
+ *        The unique slug for the "page"
+ * @return  number Numerical Position
+ */
+function getPosition(slug) {
+  var output;
+  siteData.forEach(function(element, index){
+    if (element.slug === slug) {
+      // Add offset for invisible frames
+      output = index + dragendOffset;
+    }
+  });
+  return output;
+}
+
+/**
+ * Get any URL param values by name
+ * @param  string sParam
+ * @return  string param value
+ */
+function getURLParameter(sParam){
+  var sPageURL = window.location.search.substring(1);
+  var sURLVariables = sPageURL.split('&');
+  for (var i = 0; i < sURLVariables.length; i++){
+    var sParameterName = sURLVariables[i].split('=');
+    if (sParameterName[0] == sParam){
+        return sParameterName[1];
+    }
+  }
+}
+
+/**
+ * Get starting page, if in querystring
+ * @return  number Position of page
+ */
+function getInitialPage() {
+  // Jump to any frame specified in query
+  var frameNumber, initPage, slug;
+  slug = getURLParameter(slugName);
+  initPage = dragendOffset;
+
+  if (typeof slug !== "undefined") {
+    frameNumber = getPosition(slug);
+    if (typeof frameNumber !== "undefined") {
+      initPage = frameNumber;
+    }
+  }
+
+  return initPage;
+}
+
+/**
+ * Update the page param in Address Bar, if supported
+ * @param string slug
+ */
+function updateAddress(slug) {
+  if (history.pushState) {
+    var address = window.location.protocol + "//" + window.location.host + window.location.pathname;
+
+    // Except for 'home' page, append query param
+    if (slug !== "home-page") {
+      address += '?' + slugName + '=' + slug;
+    }
+
+    window.history.pushState({path:address},'',address);
+  }
+}
