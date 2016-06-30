@@ -1,0 +1,13 @@
+.additional, button, .menu-control, .menu, .button, .pagers, iframe{
+	display: none;
+}
+
+img {
+max-width: 500px;
+}
+
+a[href^="http://"]:after, a[href^="https://"]:after {
+content: " (" attr(href) ")";
+font-size: 90%;
+word-wrap: break-word;
+}

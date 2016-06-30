@@ -1,33 +1,40 @@
-// helpers
-@import "helpers/reset";
-@import "helpers/variables";
-@import "helpers/mixins";
-@import "helpers/animations";
+@charset "UTF-8";
+@media screen{
+	// helpers
+	@import "helpers/reset";
+	@import "helpers/variables";
+	@import "helpers/mixins";
+	@import "helpers/animations";
 
-// foundation
-@import "foundation/base";
-@import "foundation/print";
-@import "foundation/typography";
+	// foundation
+	@import "foundation/base";
+	@import "foundation/print";
+	@import "foundation/typography";
 
-// components
-@import "components/buttons";
-@import "components/lists";
-@import "components/forms";
-@import "components/inputs";
-@import "components/grids";
-@import "components/expanders";
-@import "components/hamburger";
-@import "components/hero";
-@import "components/signup";
-@import "components/additional";
-@import "components/404";
-@import "components/central";
+	// components
+	@import "components/buttons";
+	@import "components/lists";
+	@import "components/forms";
+	@import "components/inputs";
+	@import "components/grids";
+	@import "components/expanders";
+	@import "components/hamburger";
+	@import "components/hero";
+	@import "components/signup";
+	@import "components/additional";
+	@import "components/404";
+	@import "components/central";
 
 
-//layout
-@import "layout/header";
-@import "layout/page";
-@import "layout/footer";
-@import "layout/menu";
-@import "helpers/ie";
-@import "layout/responsive";
+	//layout
+	@import "layout/header";
+	@import "layout/page";
+	@import "layout/footer";
+	@import "layout/menu";
+	@import "helpers/ie";
+	@import "layout/responsive";
+}
+
+@media print{
+	@import "layout/print";
+}
