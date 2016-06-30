@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "homepage": "https://github.com/iandownie/my_playground",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "~0.7.22"
+  }
+}
