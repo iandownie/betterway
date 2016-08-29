@@ -86,15 +86,20 @@
 	.button{
 		min-width: 14em;
 	}
+}
+
+@media screen and (max-width: $ML){
 	.additional{
 		ul{
 			padding-left: 0;
 			li{
 				width: 100%;
-				margin: 0 calc(#{$vertical-size}/4) calc(#{$vertical-size}/4);
+				height: auto;
+				margin: 0 0 calc(#{$vertical-size}/4);
 				h4{
 					float: none;
 					text-align: center;
+					max-width: 100%;
 				}
 				.button{
 					float: none;

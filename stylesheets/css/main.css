@@ -4279,6 +4279,7 @@
     margin: 0 2em;
     float: left;
     padding-top: 1em;
+    max-width: calc(100% - 275px);
   }
   .additional ul {
     margin: 0;
@@ -4840,17 +4841,20 @@
   .button {
     min-width: 14em;
   }
-
+}
+@media screen and (max-width: 1000px) {
   .additional ul {
     padding-left: 0;
   }
   .additional ul li {
     width: 100%;
-    margin: 0 calc(6em/4) calc(6em/4);
+    height: auto;
+    margin: 0 0 calc(6em/4);
   }
   .additional ul li h4 {
     float: none;
     text-align: center;
+    max-width: 100%;
   }
   .additional ul li .button {
     float: none;
