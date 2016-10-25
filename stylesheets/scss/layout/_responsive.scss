@@ -82,6 +82,12 @@
 			@include square(calc(11px*8), calc(11px*6));
 			@include transform(translateX(-50%) skew(-30deg));
 		}
+		img{
+			width: calc(#{$space-amount}*5);
+		}
+		iframe{
+			height: calc( (100vw - 15px - 4em)/1.7778 );
+		}
 	}
 	.button{
 		min-width: 14em;

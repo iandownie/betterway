@@ -453,9 +453,15 @@ function loadAdditional(section, sectionData, pageIndex){// Imports and formats 
 function loadCentral(section, sectionData, pageIndex){// Imports and formats "additonal" type content sections
   setTimeout(function(){
     $('.page-'+pageIndex+' section.'+sectionData.type).load('html_imports/'+sectionData.type+'.html', function(){
+      if (typeof sectionData.video !== 'undefined') {
+        var iframeSrc='https://www.youtube.com/embed/'+sectionData.video+'?&autoplay=0&rel=0&showinfo=0&modestbranding=1&controls=0&autohide=1&color=white"&origin=http://'+window.location.hostname;
+        $(this).find('iframe').attr('src', iframeSrc);
+      } else {
         $(this).find('p').text(sectionData.text);
-        $(this).find('img').attr('src', '_assets/images/icons/BetterWay_'+sectionData.image);
-        initiateFunctionality();
+      }
+
+      $(this).find('img').attr('src', '_assets/images/icons/BetterWay_'+sectionData.image);
+      initiateFunctionality();
     });
   }, 100);
 }

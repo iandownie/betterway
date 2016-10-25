@@ -12,7 +12,7 @@ $mark-size: 22px;
 		padding-top: calc(#{$space-amount}/2);
 	}
 	img{
-		width: calc(#{$space-amount*5});
+		width: calc(#{$space-amount}*3 + 90px);
 		@include center(horizontal);
 	}
 	.mark{
@@ -20,5 +20,12 @@ $mark-size: 22px;
 		@include square(calc(#{$mark-size}*8), calc(#{$mark-size}*6));
 		@include transform(translateX(-50%) skew(-30deg));
 		@include position(absolute, calc(#{$space-amount}*2), 50%);
+	}
+	iframe{
+		@include square(100%, calc((100vw - (50vw - 44em/2)*2)/1.7778));
+		display: none;
+		&[src]{
+			display: block;
+		}
 	}
 }
